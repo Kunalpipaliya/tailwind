@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#334456] text-white capitalize m-3">
+    <div class="text-2xl font-bold">1.filter</div>
+    <br>
+    <div class="text-1xl">blur</div>
+    <br>
+    <img src="img/villas.avif" alt="" class="blur-none w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="blur-sm w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="blur-lg w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="blur-2xl w-60 rounded-lg mb-2">
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">brightness</div>
+    <br>
+    <img src="img/villas.avif" alt="" class="brightness-50 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="brightness-100 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="brightness-125 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="brightness-200 w-60 rounded-lg mb-2">
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">contrast</div>
+    <br>
+    <img src="img/villas.avif" alt="" class="contrast-50 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="contrast-100 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="contrast-125 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="contrast-200 w-60 rounded-lg mb-2">
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">drop-shadow</div>
+    <br>
+    <img src="img/p-3.avif" alt="" class="rounded-full w-20 drop-shadow-md drop-shadow-white mb-2">
+    <img src="img/p-3.avif" alt="" class="rounded-full w-20 drop-shadow-lg drop-shadow-white mb-2">
+    <img src="img/p-3.avif" alt="" class="rounded-full w-20 drop-shadow-xl drop-shadow-white mb-2">
+    <img src="img/p-3.avif" alt="" class="rounded-full w-20 drop-shadow-xl/25 drop-shadow-white mb-2">
+    <img src="img/p-3.avif" alt="" class="rounded-full w-20 drop-shadow-xl/50 drop-shadow-white mb-2">
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">grayscale</div>
+    <br>
+    <img src="img/villas.avif" alt="" class="grayscale-0 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="grayscale-25 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="grayscale-50 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="grayscale-75 w-60 rounded-lg mb-2">
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">hue-rotate</div>
+    <br>
+    <img src="img/villas.avif" alt="" class="hue-rotate-15 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="hue-rotate-90 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="hue-rotate-180 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="hue-rotate-270 w-60 rounded-lg mb-2">
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">invert</div>
+    <br>
+    <img src="img/villas.avif" alt="" class="invert-0 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="invert-20 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="invert w-60 rounded-lg mb-2">
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">saturate</div>
+    <br>
+    <img src="img/villas.avif" alt="" class="saturate-50 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="saturate-100 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="saturate-150 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="saturate-200 w-60 rounded-lg mb-2">
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">sepia</div>
+    <br>
+    <img src="img/villas.avif" alt="" class="sepia-0 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="sepia-50 w-60 rounded-lg mb-2">
+    <img src="img/villas.avif" alt="" class="sepia w-60 rounded-lg mb-2">
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl font-bold">2.backdrop-filter</div>
+    <br>
+    <div class="text-1xl">blur</div>
+    <br>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-blur-xs w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class=" backdrop-grayscale w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-blur-xs backdrop-grayscale w-28 h-14"></div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    
+    <div class="text-1xl">brightness</div>
+    <br>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-brightness-50 bg-white/30 w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-brightness-150 bg-white/30 w-28 h-14"></div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">contrast</div>
+    <br>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-contrast-50 bg-white/30 w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-contrast-200 bg-white/30 w-28 h-14"></div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">grayscale</div>
+    <br>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-grayscale-0 bg-white/30 w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-grayscale-50 bg-white/30 w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-grayscale-200 bg-white/30 w-28 h-14"></div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">hue-rotate</div>
+    <br>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-hue-rotate-90 bg-white/30 w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-hue-rotate-180 bg-white/30 w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-hue-rotate-270 bg-white/30 w-28 h-14"></div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">invert</div>
+    <br>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-invert-0 bg-white/30 w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-invert-65 bg-white/30 w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-invert bg-white/30 w-28 h-14"></div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">opacity</div>
+    <br>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-opacity-10 bg-white/30 backdrop-invert w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-opacity-60 bg-white/30 backdrop-invert w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-opacity-95 bg-white/30 backdrop-invert w-28 h-14"></div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    
+    <div class="text-1xl">saturate</div>
+    <br>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-saturate-50 bg-white/30 w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-saturate-125 bg-white/30 w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-saturate-200 bg-white/30 w-28 h-14"></div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">sepia</div>
+    <br>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-sepia-0 bg-white/30 w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-sepia-50 bg-white/30 w-28 h-14"></div>
+    </div>
+    <div class="bg-[url(img/villas.avif)] w-50 h-30 bg-cover flex mb-2 rounded-xl justify-center items-center">
+        <div class="backdrop-sepia bg-white/30 w-28 h-14"></div>
+    </div>
+    
+    
+</body>
+
+</html>

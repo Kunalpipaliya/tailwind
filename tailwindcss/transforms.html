@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transfroms</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="m-3 bg-[#334456] text-white capitalize">
+    <div class="text-2xl font-bold">
+        transfroms
+    </div>
+    <br>
+    <div class="text-2xl">1.backface-visibility</div>
+    <div class="w-[500px]  p-10 mx-auto flex justify-around font-bold ">
+
+        <div class="size-20 rotate-[0.75_1_0.75_45deg] transform-3d   animate-spin">
+            <div
+                class="translate-z-12 text-4xl inset-0 absolute text-black rounded-lg   p-3 text-center rotate-x-0 bg-white/80 backface-hidden">
+                1</div>
+            <div
+                class="-translate-z-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center rotate-y-180 bg-white/80 backface-hidden">
+                2</div>
+            <div
+                class="translate-x-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-y-90 bg-white/80 backface-hidden">
+                3</div>
+            <div
+                class="-translate-x-12  text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-y-90 bg-white/80 backface-hidden">
+                4</div>
+            <div
+                class="-translate-y-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-x-90 bg-white/80 backface-hidden">
+                5</div>
+            <div
+                class="translate-y-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-x-90 bg-white/80 backface-hidden">
+                6</div>
+
+        </div>
+        <div class="size-20 rotate-[0.75_1_0.75_45deg] transform-3d animate-spin ">
+            <div
+                class="translate-z-12 text-4xl inset-0 absolute text-black rounded-lg   p-3 text-center rotate-x-0 bg-white/80 backface-visible">
+                1</div>
+            <div
+                class="-translate-z-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center rotate-y-180 bg-white/80 backface-visible">
+                2</div>
+            <div
+                class="translate-x-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-y-90 bg-white/80 backface-visible">
+                3</div>
+            <div
+                class="-translate-x-12  text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-y-90 bg-white/80 backface-visible">
+                4</div>
+            <div
+                class="-translate-y-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-x-90 bg-white/80 backface-visible">
+                5</div>
+            <div
+                class="translate-y-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-x-90 bg-white/80 backface-visible">
+                6</div>
+
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">2.perspective</div>
+    <div class="w-[500px]  p-10 mx-auto flex justify-around font-bold">
+
+        <div class="size-20 rotate-[0.75_1_0.75_45deg] perspective-dramatic transform-3d animate-spin">
+            <div
+                class="translate-z-12 text-4xl inset-0 absolute text-black rounded-lg   p-3 text-center rotate-x-0 bg-white/80 backface-visible">
+                1</div>
+            <div
+                class="-translate-z-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center rotate-y-180 bg-white/80 backface-visible">
+                2</div>
+            <div
+                class="translate-x-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-y-90 bg-white/80 backface-visible">
+                3</div>
+            <div
+                class="-translate-x-12  text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-y-90 bg-white/80 backface-visible">
+                4</div>
+                <div
+                class="-translate-y-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-x-90 bg-white/80 backface-visible">
+                5</div>
+            <div
+                class="translate-y-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-x-90 bg-white/80 backface-visible">
+                6</div>
+
+        </div>
+        <div class="size-20 rotate-[0.75_1_0.75_45deg] perspective-normal transform-3d">
+            <div
+                class="translate-z-12 text-4xl inset-0 absolute text-black rounded-lg   p-3 text-center rotate-x-0 bg-white/80 backface-visible">
+                1</div>
+            <div
+                class="-translate-z-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center rotate-y-180 bg-white/80 backface-visible">
+                2</div>
+            <div
+                class="translate-x-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-y-90 bg-white/80 backface-visible">
+                3</div>
+            <div
+                class="-translate-x-12  text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-y-90 bg-white/80 backface-visible">
+                4</div>
+            <div
+                class="-translate-y-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-x-90 bg-white/80 backface-visible">
+                5</div>
+            <div
+                class="translate-y-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-x-90 bg-white/80 backface-visible">
+                6</div>
+
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">3.perspective-origin</div>
+    <div class="w-[500px]  p-10 mx-auto flex justify-around font-bold">
+        
+        <div class="size-20 rotate-[0.75_1_0.75_45deg] perspective-near perspective-origin-top-left transform-3d ">
+            <div
+                class="translate-z-12 text-4xl inset-0 absolute text-black rounded-lg   p-3 text-center rotate-x-0 bg-white/80 backface-visible">
+                1</div>
+            <div
+                class="-translate-z-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center rotate-y-180 bg-white/80 backface-visible">
+                2</div>
+            <div
+                class="translate-x-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-y-90 bg-white/80 backface-visible">
+                3</div>
+            <div
+                class="-translate-x-12  text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-y-90 bg-white/80 backface-visible">
+                4</div>
+                <div
+                class="-translate-y-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-x-90 bg-white/80 backface-visible">
+                5</div>
+            <div
+            class="translate-y-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-x-90 bg-white/80 backface-visible">
+                6</div>
+
+        </div>
+        <div class="size-20 rotate-[0.75_1_0.75_45deg] perspective-near perspective-origin-bottom-right transform-3d ">
+            <div
+                class="translate-z-12 text-4xl inset-0 absolute text-black rounded-lg   p-3 text-center rotate-x-0 bg-white/80 backface-visible">
+                1</div>
+            <div
+                class="-translate-z-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center rotate-y-180 bg-white/80 backface-visible">
+                2</div>
+            <div
+                class="translate-x-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-y-90 bg-white/80 backface-visible">
+                3</div>
+            <div
+                class="-translate-x-12  text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-y-90 bg-white/80 backface-visible">
+                4</div>
+            <div
+                class="-translate-y-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-x-90 bg-white/80 backface-visible">
+                5</div>
+            <div
+                class="translate-y-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-x-90 bg-white/80 backface-visible">
+                6</div>
+
+        </div>
+
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">4.rotate</div>
+    <br>
+    <div class="flex justify-evenly">
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 rotate-45 rounded-lg">
+            <br>
+            rotate-45
+        </div>
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 rotate-90 rounded-lg">
+            <br>
+            rotate-90
+        </div>
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 rotate-210 rounded-lg">
+            <br>
+            rotate-210
+        </div>
+    </div>
+    <div class="flex justify-evenly mt-20">
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 -rotate-45 rounded-lg">
+            <br>
+            -rotate-45
+        </div>
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 -rotate-90 rounded-lg">
+            <br>
+            -rotate-90
+        </div>
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 -rotate-210 rounded-lg">
+            <br>
+            -rotate-210
+        </div>
+    </div>
+    <div class="flex justify-evenly mt-20">
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 rotate-x-50 rotate-z-45 rounded-lg">
+            <br>
+            rotate-x-50 rotate-z-45
+        </div>
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 rotate-x-15 -rotate-y-30 rounded-lg">
+            <br>
+            -rotate-y-30 rotate-x-15
+        </div>
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 rotate-y-25 rotate-z-30 rounded-lg">
+            <br>
+            rotate-y-25 rotate-z-30
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1 mt-20">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">5.scale</div>
+    <br>
+    <div class="flex justify-evenly mt-20">
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 scale-75 rounded-lg border ">
+            <br>
+            scale-75
+        </div>
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 scale-100 rounded-lg border ">
+            <br>
+            scale-100
+        </div>
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 scale-125 rounded-lg border ">
+            <br>
+            scale-125
+        </div>
+    </div>
+    <div class="flex justify-evenly mt-20">
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 scale-x-75 rounded-lg border ">
+            <br>
+            scale-x-75
+        </div>
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 scale-x-100 rounded-lg border ">
+            <br>
+            scale-x-100
+        </div>
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 scale-x-125 rounded-lg border ">
+            <br>
+            scale-x-125
+        </div>
+    </div>
+    <div class="flex justify-evenly mt-20">
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 -scale-x-75 rounded-lg border ">
+            <br>
+            -scale-x-75
+        </div>
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 -scale-100 rounded-lg border ">
+            <br>
+            -scale-100
+        </div>
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 -scale-125 rounded-lg border ">
+            <br>
+            -scale-125
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1 mt-20">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">6.skew</div>
+    <br>
+    <div class="flex justify-evenly">
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 skew-3 rounded-lg">
+            <br>
+            skew-3
+        </div>
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 skew-6 rounded-lg">
+            <br>
+            skew-6
+        </div>
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 skew-12 rounded-lg">
+            <br>
+            skew-12
+        </div>
+    </div>
+    <div class="flex justify-evenly mt-20">
+        <div class="size-30 bg-gray-400/50 rounded-lg ">
+            <img src="img/nature.avif" alt="" class="size-30 -skew-3 rounded-lg">
+            <br>
+            -skew-3
+        </div>
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 -skew-6 rounded-lg">
+            <br>
+            -skew-6
+        </div>
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 -skew-12 rounded-lg">
+            <br>
+            -skew-12
+        </div>
+    </div>
+    <div class="flex justify-evenly mt-20">
+        <div class="size-30 bg-gray-400/50 rounded-lg ">
+            <img src="img/nature.avif" alt="" class="size-30 -skew-12 rounded-lg">
+            <br>
+            -skew-12
+        </div>
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 skew-6 rounded-lg">
+            <br>
+            skew-6
+        </div>
+        <div class="size-30 bg-gray-400/50 rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 skew-12 rounded-lg">
+            <br>
+            skew-12
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1 mt-20">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">7.transform</div>
+    <br>
+    <img src="img/nature.avif" alt="" class="scale-100 w-100 transform-gpu">
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">8.transform-origin</div>
+    <br>
+    <div class="flex justify-evenly mt-20">
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 origin-center rotate-45 rounded-lg border ">
+            <br>
+            origin-center rotate-45</div>
+            <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+                <img src="img/nature.avif" alt="" class="size-30 origin-top-left rotate-12 rounded-lg border ">
+            <br>
+            origin-top-left rotate-12
+        </div>
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30 origin-bottom -rotate-12 rounded-lg border ">
+            <br>
+            origin-bottom -rotate-12
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1 mt-20">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">9.transform-style</div>
+    <br>
+    <div class="w-[500px]  p-10 mx-auto flex justify-around font-bold">
+        
+        <div class="size-20 rotate-[0.75_1_0.75_45deg] transform-flat  ">
+            <div
+            class="translate-z-12 text-4xl inset-0 absolute text-black rounded-lg   p-3 text-center rotate-x-0 bg-white/80 backface-hidden">
+            1</div>
+            <div
+            class="-translate-z-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center rotate-y-180 bg-white/80 backface-hidden">
+            2</div>
+            <div
+            class="translate-x-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-y-90 bg-white/80 backface-hidden">
+            3</div>
+            <div
+            class="-translate-x-12  text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-y-90 bg-white/80 backface-hidden">
+            4</div>
+            <div
+            class="-translate-y-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-x-90 bg-white/80 backface-hidden">
+            5</div>
+            <div
+            class="translate-y-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-x-90 bg-white/80 backface-hidden">
+            6</div>
+            
+        </div>
+        <div class="size-20 rotate-[0.75_1_0.75_45deg] transform-3d  ">
+            <div
+            class="translate-z-12 text-4xl inset-0 absolute text-black rounded-lg   p-3 text-center rotate-x-0 bg-white/80 backface-visible">
+            1</div>
+            <div
+            class="-translate-z-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center rotate-y-180 bg-white/80 backface-visible">
+            2</div>
+            <div
+            class="translate-x-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-y-90 bg-white/80 backface-visible">
+            3</div>
+            <div
+            class="-translate-x-12  text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-y-90 bg-white/80 backface-visible">
+            4</div>
+            <div
+            class="-translate-y-12 text-4xl inset-0 absolute  text-black rounded-lg  p-3 text-center rotate-x-90 bg-white/80 backface-visible">
+            5</div>
+            <div
+            class="translate-y-12 text-4xl inset-0 absolute   text-black rounded-lg p-3 text-center -rotate-x-90 bg-white/80 backface-visible">
+            6</div>
+            
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">10.translate</div>
+    <br>
+    <div class="flex justify-evenly mt-20">
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30  -translate-6 rounded-lg border ">
+            <br>
+             -translate-6</div>
+            <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+                <img src="img/nature.avif" alt="" class="size-30  translate-2 rounded-lg border ">
+            <br>
+             translate-2
+        </div>
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30  translate-5 rounded-lg border ">
+            <br>
+             translate-5
+        </div>
+    </div>
+    <div class="flex justify-evenly mt-20">
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30  -translate-1/4 rounded-lg border ">
+            <br>
+             -translate-1/4</div>
+            <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+                <img src="img/nature.avif" alt="" class="size-30  translate-1/6 rounded-lg border ">
+            <br>
+             translate-1/6
+        </div>
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30  translate-1/2 rounded-lg border ">
+            <br>
+             translate-1/2
+        </div>
+    </div>
+    <div class="flex justify-evenly mt-20">
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30  -translate-x-4 rounded-lg border ">
+            <br>
+             -translate-x-4</div>
+            <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+                <img src="img/nature.avif" alt="" class="size-30  translate-x-2 rounded-lg border ">
+            <br>
+             translate-x-2
+        </div>
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30  translate-x-1/2 rounded-lg border ">
+            <br>
+             translate-x-1/2
+        </div>
+    </div>
+    <div class="flex justify-evenly mt-20">
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30  -translate-y-4 rounded-lg border ">
+            <br>
+             -translate-y-4</div>
+            <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+                <img src="img/nature.avif" alt="" class="size-30  translate-y-2 rounded-lg border ">
+            <br>
+             translate-y-2
+        </div>
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg">
+            <img src="img/nature.avif" alt="" class="size-30  translate-y-1/2 rounded-lg border ">
+            <br>
+             translate-y-1/2
+        </div>
+    </div>
+    <div class="flex justify-evenly mt-20">
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover rounded-lg transform-3d">
+            <img src="img/nature.avif" alt="" class="size-30  -translate-z-4 rotate-x-50 rotate-z-45 rounded-lg border ">
+            <b trar>
+             -translate-z-4</div>
+            <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg transform-3d">
+                <img src="img/nature.avif" alt="" class="size-30  translate-z-2 rotate-x-50 rotate-z-45 rounded-lg border ">
+            <b trar>
+             translate-z-2
+        </div>
+        <div class="size-30 bg-[url(img/nature.avif)] bg-cover  rounded-lg transform-3d">
+            <img src="img/nature.avif" alt="" class="size-30  translate-z-1/2 rotate-x-50 rotate-z-45 rounded-lg border ">
+            <b trar>
+             translate-z-1/2
+        </div>
+    </div>
+
+    
+    
+</body>
+
+</html>

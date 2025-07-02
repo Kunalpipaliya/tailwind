@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#334456] text-white capitalize m-3">
+    <div class="text-2xl font-bold">borders</div>
+    <br>
+    <div class="text-2xl">1.border-radius</div>
+    <br>
+    <div class="size-32 border-1 rounded-sm text-center">rounded-sm</div><br>
+    <div class="size-32 border-1 rounded-md text-center">rounded-md</div><br>
+    <div class="size-32 border-1 rounded-lg text-center">rounded-lg</div><br>
+    <div class="size-32 border-1 rounded-xl text-center">rounded-xl</div><br>
+    <div class="size-32 border-1 rounded-t-lg text-center">rounded-t-lg</div><br>
+    <div class="size-32 border-1 rounded-r-lg text-center">rounded-r-lg</div><br>
+    <div class="size-32 border-1 rounded-b-lg text-center">rounded-b-lg</div><br>
+    <div class="size-32 border-1 rounded-l-lg text-center">rounded-l-lg</div><br>
+    <div class="size-32 border-1 rounded-tr-lg text-center">rounded-tr-lg</div><br>
+    <div class="size-32 border-1 rounded-tl-lg text-center">rounded-tl-lg</div><br>
+    <div class="size-32 border-1 rounded-br-lg text-center">rounded-br-lg</div><br>
+    <div class="size-32 border-1 rounded-bl-lg text-center">rounded-xl</div><br>
+    <div dir="ltr">
+        <div class="rounded-s-lg border-1 size-32">left-to-right</div>
+    </div>
+    <div dir="rtl">
+        <div class="rounded-s-lg border-1 size-32">left-to-right</div>
+    </div>
+    <button class="rounded-full p-3 bg-sky-500 pl-4 pr-4">Save changes</button><br>
+    <br>
+    <button class="rounded-none p-3 bg-sky-500 pl-4 pr-4">Save changes</button>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl">2.border-width</div>
+    <br>
+    <div class="text-1xl">border-width</div>
+    <br>
+    <div class="size-32 border border-indigo-500 mb-2 bg-black"></div>
+    <div class="size-32 border-2 border-indigo-500 mb-2 bg-black"></div>
+    <div class="size-32 border-4 border-indigo-500 mb-2 bg-black"></div>
+    <div class="size-32 border-6 border-indigo-500 mb-2 bg-black"></div>
+    <div class="size-32 border-8 border-indigo-500 mb-2 bg-black"></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">individual-sides</div>
+    <br>
+    <div class="size-32 border-t-4 border-indigo-500 mb-2 bg-black">top</div>
+    <div class="size-32 border-r-4 border-indigo-500 mb-2 bg-black">right</div>
+    <div class="size-32 border-b-4 border-indigo-500 mb-2 bg-black">bottom</div>
+    <div class="size-32 border-l-4 border-indigo-500 mb-2 bg-black">left</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">horizontal & vertical sides</div>
+    <div class="size-32 border-x-4 border-indigo-500 mb-2 bg-black">vertical</div>
+    <div class="size-32 border-y-4 border-indigo-500 mb-2 bg-black">horizontal</div>
+    <br>
+    <hr>
+    <br>
+    <div dir="ltr">
+
+        <div class="size-32 border-s-4 border-indigo-500 mb-2 bg-black">left-to-right</div>
+    </div>
+    <div dir="rtl">
+
+        <div class="size-32 border-s-4 border-indigo-500 mb-2 bg-black">right-to-left</div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">between-children</div>
+    <br>
+    <div class="grid grid-cols-3 divide-x-4 text-center border-1 p-4 divide-indigo-500">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">reversing-children-order</div>
+    <br>
+    <div class="flex flex-col-reverse divide-y-4 divide-y-reverse  text-center border-1 p-4 divide-indigo-500">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">3.border-color</div>
+    <br>
+    <div class="text-1xl">color</div>
+    <br>
+    <div class="size-32 bg-black border-1 border-indigo-500"></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">individual-sides</div>
+    <br>
+    <div class="size-32 mb-2 bg-black border-4 border-indigo-400 border-t-indigo-600"></div>
+    <div class="size-32 mb-2 bg-black border-4 border-indigo-400 border-r-indigo-600"></div>
+    <div class="size-32 mb-2 bg-black border-4 border-indigo-400 border-b-indigo-600"></div>
+    <div class="size-32 mb-2 bg-black border-4 border-indigo-400 border-l-indigo-600"></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">horizontal & vertical sides</div>
+    <br>
+    <div class="size-32 mb-2 bg-black border-4 border-indigo-400 border-x-indigo-600"></div>
+    <div class="size-32 mb-2 bg-black border-4 border-indigo-400 border-y-indigo-600"></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">top to left & left to right</div>
+    <br>
+    <div dir="ltr">
+        <div class="size-32 mb-2 bg-black border-4 border-indigo-400 border-s-indigo-600">left to right</div>
+    </div>
+
+    <div dir="rtl">
+        <div class="size-32 mb-2 bg-black border-4 border-indigo-400 border-s-indigo-600">right to left</div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">divider between children</div>
+    <br>
+    <div class="grid grid-cols-3 divide-x-4 divide-indigo-600 text-center border-1 p-3">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">applying on focus</div>
+    <br>
+    <div class="text-1xl font-bold">Email address</div>
+    <input type="text" class="border-2 border-gray-500 pl-6 pr-6 p-2 rounded-xl focus:border-sky-600 focus:border-4"
+        placeholder="abc@example.com">
+    <br>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">4.border-style</div>
+    <br>
+    <button class="pr-5 pl-5 p-2 bg-sky-500 border-2 border-solid rounded">button</button>
+    <button class="pr-5 pl-5 p-2 bg-sky-500 border-2 border-dashed rounded">button</button>
+    <button class="pr-5 pl-5 p-2 bg-sky-500 border-2 border-dotted rounded">button</button>
+    <button class="pr-5 pl-5 p-2 bg-sky-500 border-4 border-double rounded">button</button>
+    <br>
+    <br>
+    <div class="text-1xl">border-none</div>
+    <br>
+    <button class="pr-5 pl-5 p-2 bg-sky-500 border-4 border-none rounded">button</button>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div class="grid grid-cols-3 divide-x-3 divide-solid divide-indigo-600 border-1 p-3 text-center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">5.outline-width</div>
+    <br>
+    <button class="outline outline-offset-2 outline-sky-500 p-2 rounded-lg bg-gray-600 pl-5 pr-5">button</button>
+    <button class="outline-2 ml-2 outline-offset-2 outline-sky-500 p-2 rounded-lg bg-gray-600 pl-5 pr-5">button</button>
+    <button class="outline-3 ml-2 outline-offset-2 outline-sky-500 p-2 rounded-lg bg-gray-600 pl-5 pr-5">button</button>
+    <br>
+    <br>
+    <button
+        class="outline-offset-2 outline-sky-500 focus:outline-2 bg-gray-600 p-2 pr-5 pl-5 rounded-lg">button</button>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl">6.outline-color</div>
+    <br>
+    <button class="outline-2 bg-gray-600 outline-offset-2 outline-blue-500 p-2 pl-5 pr-5 rounded-lg">button</button>
+    <button
+        class="outline-2  ml-2 bg-gray-600 outline-offset-2 outline-pink-500 p-2 pl-5 pr-5 rounded-lg">button</button>
+    <button
+        class="outline-2 ml-2 bg-gray-600  outline-offset-2 outline-yellow-500 p-2 pl-5 pr-5 rounded-lg">button</button>
+    <button
+        class="outline-2 ml-2 bg-gray-600  outline-offset-2 outline-green-500 p-2 pl-5 pr-5 rounded-lg">button</button>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl">7.outline-style</div>
+    <br>
+    <button
+        class="outline-2 outline-offset-2 outline-indigo-500 outline-solid p-2 pl-5 pr-5 rounded-lg bg-gray-600">button</button>
+    <button
+        class="outline-2 outline-offset-2 ml-2 outline-indigo-500 outline-dashed p-2 pl-5 pr-5 rounded-lg bg-gray-600">button</button>
+    <button
+        class="outline-2 outline-offset-2 ml-2 outline-indigo-500 outline-dotted p-2 pl-5 pr-5 rounded-lg bg-gray-600">button</button>
+    <button
+        class="outline-3 outline-offset-2 ml-2 outline-indigo-500 outline-double p-2 pl-5 pr-5 rounded-lg bg-gray-600">button</button>
+    <br>
+    <br>
+    <input type="text"
+        class="bg-gray-600 w-[400px] p-2 border-b-2 focus:outline-hidden outline-offset-2 outline-indigo-600 focus:border-indigo-500"
+        placeholder="your full name">
+    <br>
+    <br>
+    <div
+        class="flex max-w-md flex-col rounded-lg outline-1 outline-gray-300 focus-within:outline-2 focus-within:outline-indigo-600 dark:bg-white/5 dark:outline-transparent dark:focus-within:outline-indigo-500">
+        <textarea name="" id="" class="outline-none resize-none w-full p-3" placeholder="Leave a comment"></textarea>
+        <button
+            class="mr-2 mb-2 inline-flex items-center self-end rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus:outline-2 focus:outline-offset-2 focus:outline-indigo-600"
+            type="button">Post</button>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl">8.outline-offset</div>
+    <br>
+    <button class="outline-2 outline-offset-0 bg-gray-600 rounded-lg outline-sky-500 p-2">button</button>
+    <button class="outline-2 ml-3 outline-offset-2 bg-gray-600 rounded-lg outline-sky-500 p-2">button</button>
+    <button class="outline-2 ml-3 outline-offset-4 bg-gray-600 rounded-lg outline-sky-500 p-2">button</button>
+
+
+</body>
+
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#334456] text-white capitalize m-3">
+
+    <div class="text-2xl font-bold">backgrounds</div>
+    <br>
+    <div class="text-2xl">1.background-attechment</div>
+    <br>
+    <div class="text-1xl bold">background-attechment-fixed</div>
+    <br>
+    <div
+        class="h-80 w-[500px] overflow-y-scroll border-x border-x-gray-200 bg-[url(/img/nature.avif)] bg-cover bg-[center_-100px] dark:border-gray-800">
+        <div class="mt-45">
+            <div
+                class="border-x border-x-gray-200 bg-white p-4 text-gray-500 sm:p-8 dark:border-x-gray-800 dark:bg-gray-900 dark:text-gray-400">
+                <div class="font-inter text-2xl font-extrabold tracking-tight text-black dark:text-white">My trip to the
+                    summit</div>
+                <div class="mt-1 text-sm font-medium text-gray-500">November 16, 2021 · 4 min read</div>
+                <p class="mt-4 leading-7">Maybe we can live without libraries, people like you and me. Maybe. Sure,
+                    we're too old to change the world, but what about that kid, sitting down, opening a book, right now,
+                    in a branch at the local library and finding drawings of pee-pees and wee-wees on the Cat in the Hat
+                    and the Five Chinese Brothers? Doesn't HE deserve better?</p>
+                <p class="mt-4 leading-7">Look. If you think this is about overdue fines and missing books, you'd better
+                    think again. This is about that kid's right to read a book without getting his mind warped! Or:
+                    maybe that turns you on, Seinfeld; maybe that's how y'get your kicks. You and your good-time
+                    buddies.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl bold">
+        background-attechment-local
+    </div>
+    <br>
+    <div class="h-[300px] w-[500px]  overflow-y-scroll bg-[url(/img/nature.avif)] bg-cover bg-local bg-no-repeat">
+        <div class="min-h-full bg-black/40 p-12 sm:px-16 sm:py-12">
+            <p class="text-center font-serif text-xl leading-6 text-white italic sm:text-2xl sm:leading-8">Because the
+                mail never stops. It just keeps coming and coming and coming, there's never a let-up. It's relentless.
+                Every day it piles up more and more and more. And you gotta get it out but the more you get it out the
+                more it keeps coming in. And then the barcode reader breaks and it's Publisher's Clearing House day.</p>
+            <div class="font-inter mt-6 text-center text-sm font-bold text-white sm:text-base">— Newman</div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl bold">
+        background-attechment-scroll
+    </div>
+    <br>
+    <div class="h-[300px] w-[500px] overflow-y-scroll bg-[url(/img/nature.avif)] bg-cover bg-scroll bg-no-repeat ">
+        <div class="min-h-full bg-black/40 p-12 sm:px-16 sm:py-12">
+            <p class="text-center font-serif text-xl leading-6 text-white italic sm:text-2xl sm:leading-8">Because the
+                mail never stops. It just keeps coming and coming and coming, there's never a let-up. It's relentless.
+                Every day it piles up more and more and more. And you gotta get it out but the more you get it out the
+                more it keeps coming in. And then the barcode reader breaks and it's Publisher's Clearing House day.</p>
+            <div class="font-inter mt-6 text-center text-sm font-bold text-white sm:text-base">— Newman</div>
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr width="50%">
+    <br>
+    <div class="text-2xl">2.background-clip</div>
+    <br>
+    <div class="text-1xl">bg-clip-border</div>
+    <br>
+    <div class="size-32 border-4 bg-indigo-500 bg-clip-border p-3 rounded-xl"></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">bg-clip-padding</div>
+    <br>
+    <div class="size-32 border-4 bg-indigo-500 bg-clip-padding p-3 rounded-xl"></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">bg-clip-content</div>
+    <br>
+    <div class="size-32 border-4 bg-indigo-500 bg-clip-content p-3 rounded-xl"></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">cropping to text</div>
+    <br>
+    <div class="bg-gradient-to-b from-pink-500 to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent">
+        hello world
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr width="50%">
+    <br>
+    <div class="text-2xl">3.background-color</div>
+    <br>
+    <div class="text-1xl">background-color</div>
+    <br>
+    <button class="bg-blue-500 rounded-lg pl-3 pr-3 p-2">button</button>
+    <button class="bg-cyan-500 rounded-lg pl-3 pr-3 p-2">button</button>
+    <button class="bg-pink-500 rounded-lg pl-3 pr-3 p-2">button</button>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">changing opacity</div>
+    <br>
+    <button class="bg-blue-500/75 rounded-lg pl-3 pr-3 p-2">button</button>
+    <button class="bg-blue-500/50 rounded-lg pl-3 pr-3 p-2">button</button>
+    <button class="bg-blue-500/25 rounded-lg pl-3 pr-3 p-2">button</button>
+    <br>
+    <br>
+    <button class="bg-cyan-500/75 rounded-lg pl-3 pr-3 p-2">button</button>
+    <button class="bg-cyan-500/50 rounded-lg pl-3 pr-3 p-2">button</button>
+    <button class="bg-cyan-500/25 rounded-lg pl-3 pr-3 p-2">button</button>
+    <br>
+    <br>
+    <button class="bg-pink-500/75 rounded-lg pl-3 pr-3 p-2">button</button>
+    <button class="bg-pink-500/50 rounded-lg pl-3 pr-3 p-2">button</button>
+    <button class="bg-pink-500/25 rounded-lg pl-3 pr-3 p-2">button</button>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">applying hover</div>
+    <br>
+    <button class="bg-pink-500 hover:bg-pink-500/80 rounded-lg pl-3 pr-3 p-2">button</button>
+    <br>
+    <br>
+    <hr class="mb-1">
+    <hr width="50%">
+    <br>
+    <div class="text-2xl">4.background-image</div>
+    
+    <br>
+    <div class="text-1xl">bg-image</div>
+    <br>
+    <div class="bg-[url(/img/nature.avif)] size-[500px] bg-no-repeat bg-cover"></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">adding a linear gradiant</div>
+    <br>
+    <div class="h-14 bg-linear-to-r from-cyan-500 to-blue-500 rounded-lg mb-1"></div>
+    <div class="h-14 bg-linear-to-t from-sky-500 to-indigo-500 rounded-lg mb-1"></div>
+    <div class="h-14 bg-linear-to-l from-violet-500 to-fuchsia-500 rounded-lg mb-1"></div>
+    <div class="h-14 bg-linear-to-b from-violet-500 to-fuchsia-500 rounded-lg mb-1"></div>
+    <div class="h-14 bg-linear-to-bl from-violet-500 to-fuchsia-500 rounded-lg mb-1"></div>
+    <div class="h-14 bg-linear-65 from-purple-500 to-pink-500 rounded-lg mb-1"></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">adding a linear gradiant</div>
+    <br>
+    <div class="size-24 rounded-full bg-radial from-pink-400 from-40% to-fuchsia-700 mb-2"></div>
+    <div class="size-24 rounded-full bg-radial-[at_50%_75%] from-sky-200 via-blue-400 to-indigo-900 to-90% mb-2"></div>
+    <div class="size-24 rounded-full bg-radial-[at_25%_25%] from-white to-zinc-900 to-75%"></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">adding a conic gradiant</div>
+    <br>
+    <div class="size-24 rounded-full bg-conic from-blue-600 to-sky-600 to-50%"></div>
+    <br>
+    <div class="size-24 rounded-full bg-conic-180 from-indigo-600 via-indigo-50 to-indigo-600"></div>
+    <br>
+    <div class="size-24 rounded-full bg-conic/decreasing from-violet-700 via-lime-300 to-violet-700"></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">setting gradiant color stops</div>
+    <br>
+    <div class="w-200 h-5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">setting gradiant color stops position</div>
+    <br>
+    <div class="w-200 h-5 bg-gradient-to-r from-indigo-500 from-10%  via-sky-500 via-30% to-emerald-500 to-90%"></div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">5.background-origin</div>
+    <br>
+    <div class="border-4 border-dashed bg-[url(/img/nature.avif)] bg-origin-border p-3 mb-2 border-black w-32 h-32 bg-cover rounded-xl"></div>
+    <div class="border-4 border-dashed bg-[url(/img/nature.avif)] bg-origin-padding p-3 mb-2 border-black w-32 h-32 bg-cover rounded-xl"></div>
+    <div class="border-4 border-dashed bg-[url(/img/nature.avif)] bg-origin-content bg-no-repeat p-3 mb-2 border-black w-32 h-32 bg-cover rounded-xl"></div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">6.background-position</div>
+    <br>
+    <div class="bg-[url(/img/nature.avif)] text-center shadow-md shadow-white rounded-lg text-shadow-sm text-shadow-amber-500  bg-top-left w-32 mb-2 h-32 bg-cover text-black font-bold">top-left</div>
+    <div class="bg-[url(/img/nature.avif)] text-center shadow-md shadow-white rounded-lg text-shadow-sm text-shadow-amber-500  bg-top w-32 mb-2 h-32 bg-cover text-black font-bold">top</div>
+    <div class="bg-[url(/img/nature.avif)] text-center shadow-md shadow-white rounded-lg text-shadow-sm text-shadow-amber-500  bg-top-right w-32 mb-2 h-32 bg-cover text-black font-bold">top-right</div>
+    <div class="bg-[url(/img/nature.avif)] text-center shadow-md shadow-white rounded-lg text-shadow-sm text-shadow-amber-500  bg-left w-32 mb-2 h-32 bg-cover text-black font-bold">left</div>
+    <div class="bg-[url(/img/nature.avif)] text-center shadow-md shadow-white rounded-lg text-shadow-sm text-shadow-amber-500  bg-center w-32 mb-2 h-32 bg-cover text-black font-bold">center</div>
+    <div class="bg-[url(/img/nature.avif)] text-center shadow-md shadow-white rounded-lg text-shadow-sm text-shadow-amber-500  bg-right w-32 mb-2 h-32 bg-cover text-black font-bold">right</div>
+    <div class="bg-[url(/img/nature.avif)] text-center shadow-md shadow-white rounded-lg text-shadow-sm text-shadow-amber-500  bg-bottom-left w-32 mb-2 h-32 bg-cover text-black font-bold">bottom-left</div>
+    <div class="bg-[url(/img/nature.avif)] text-center shadow-md shadow-white rounded-lg text-shadow-sm text-shadow-amber-500  bg-bottom w-32 mb-2 h-32 bg-cover text-black font-bold">bottom</div>
+    <div class="bg-[url(/img/nature.avif)] text-center shadow-md shadow-white rounded-lg text-shadow-sm text-shadow-amber-500  bg-bottom-right w-32 mb-2 h-32 bg-cover text-black font-bold">bottom-right</div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">7.background-repeat</div>
+    <br>
+    <div class="bg-[url(/img/nature.avif)] w-full h-[100vh] bg-center font-medium text-3xl text-sky-500 text-shadow-md text-shadow-sky-500 text-center dark:text-shadow-gray-500/50 mb-2 bg-repeat"> bg-repeat</div><br><hr><br>
+    <div class="bg-[url(/img/nature.avif)] w-full h-[100vh] bg-center font-medium text-3xl text-sky-500 text-shadow-md text-shadow-sky-500 text-center dark:text-shadow-gray-500/50 mb-2 bg-repeat-x"> bg-repeat-x</div><br><hr><br>
+    <div class="bg-[url(/img/nature.avif)] w-full h-[100vh] bg-center font-medium text-3xl text-sky-500 text-shadow-md text-shadow-sky-500 text-center dark:text-shadow-gray-500/50 mb-2 bg-repeat-y"> bg-repeat-y</div><br><hr><br>
+    <div class="bg-[url(/img/nature.avif)] w-full h-[100vh] bg-center font-medium text-3xl text-sky-500 text-shadow-md text-shadow-sky-500 text-center dark:text-shadow-gray-500/50 mb-2 bg-repeat-space"> bg-repeat-space</div><br><hr><br>
+    <div class="bg-[url(/img/nature.avif)] w-full h-[100vh] bg-center font-medium text-3xl text-sky-500 text-shadow-md text-shadow-sky-500 text-center dark:text-shadow-gray-500/50 mb-2 bg-repeat-round"> bg-repeat-round</div><br><hr><br>
+    <div class="bg-[url(/img/nature.avif)] w-full h-[100vh] bg-center font-medium text-3xl text-sky-500 text-shadow-md text-shadow-sky-500 text-center dark:text-shadow-gray-500/50 mb-2 bg-no-repeat"> bg-no-repeat</div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">8.background-size</div>
+    <br>
+    <div class="bg-[url(/img/nature.avif)] bg-cover bg-center w-64 h-64 text-center text-black text-2xl bg-no-repeat font-semibold">bg-cover</div><br><hr><br>
+    <div class="bg-[url(/img/nature.avif)] bg-contain bg-center w-64 h-64 text-center text-black text-2xl bg-no-repeat font-semibold">bg-contain</div><br><hr><br>
+    <div class="bg-[url(/img/nature.avif)] bg-auto bg-center w-64 h-64 text-center text-black text-2xl bg-no-repeat font-semibold">bg-auto</div>
+   
+
+    
+
+    
+    
+</body>
+
+</html>

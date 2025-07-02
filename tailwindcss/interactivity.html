@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#334456] text-white capitalize m-3">
+    <div class="text-2xl font-bold">interactivity</div>
+    <br>
+    <div class="text-2xl">1.accent-color</div>
+    <br>
+    <label for="">
+        <input type="checkbox" class="accent-pink-500">
+        check me!
+    </label><br>
+    <hr>
+    <br>
+    changing opacity
+    <br>
+    <br>
+    <label for="">
+        <input type="checkbox" class="accent-pink-500/25">
+        check me!
+    </label><br>
+    <label for="">
+        <input type="checkbox" class="accent-pink-500/75">
+        check me!
+    </label><br>
+    </label><br>
+    <hr>
+    <br>
+    applying hover
+    <br>
+    <br>
+    <label for="">
+        <input type="checkbox" class="accent-black hover:accent-pink-500/25">
+        check me!
+    </label>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">2.appearance</div>
+    <br>
+    <div class="grid">
+        <select name="" id=""
+            class="col-start-1 row-start-1 appearance-none bg-gray-50 dark:bg-gray-800 p-2 w-20 rounded-lg">
+            <option value="">yes</option>
+            <option value="">no</option>
+            <option value="">may be</option>
+        </select>
+
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">3.caret-color</div>
+    <br>
+    <textarea name="" id=""
+        class="rounded-lg caret-pink-500 ring-1 ring-gray-500 focus:ring-pink-500 p-2 outline-0"></textarea>
+    <br>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">4.scheme-color</div>
+    <br>
+    <div class="scheme-light ">
+        <input type="date" name="" id="" class="w-50 bg-[field] p-2 text-black rounded-lg">
+    </div>
+    <br>
+    <div class="scheme-dark ">
+        <input type="date" name="" id="" class="w-50 bg-[field] p-2 text-white rounded-lg">
+    </div>
+    <br>
+    <div class="scheme-light-dark ">
+        <input type="date" name="" id="" class="w-50 bg-[field] p-2 text-white rounded-lg">
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">5.cursor</div>
+    <br>
+    <button class="bg-indigo-500 text-white rounded-lg p-2 cursor-pointer ">pointer</button>
+    <button class="bg-indigo-500 text-white rounded-lg p-2 cursor-progress ">progress</button>
+    <button class="bg-indigo-500 text-white rounded-lg p-2 cursor-not-allowed ">not-allowed</button>
+    <br>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">6.field-sizing</div>
+    <br>
+    <textarea name="" id="" class="field-sizing-content ring-gray-500 bg-rose-500 rounded-lg text-white p-3"
+        rows="2">Latex Salesman, Vanderlay Industries</textarea>
+    <textarea name="" id="" class="field-sizing-fixed w-80 ring-gray-500 bg-rose-500 rounded-lg text-white p-3"
+        rows="2">Latex Salesman, Vanderlay Industries</textarea>
+    <br><br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">7.pointer-events</div>
+    <br>
+    <div class="relative w-[500px] rounded-lg shadow-sm">
+        <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"><svg
+                class="absolute h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                    clip-rule="evenodd"></path>
+            </svg></div><input placeholder="Search"
+            class="dark:highlight-white/5 block w-full rounded-lg px-3 py-2 pl-10 font-sans text-sm text-gray-500 ring-1 ring-gray-900/10 dark:bg-gray-800 dark:text-gray-400 dark:ring-0"
+            type="text">
+    </div>
+    <br>
+    <div class="relative w-[500px] rounded-lg shadow-sm">
+        <div class="pointer-events-auto absolute inset-y-0 left-0 flex items-center pl-3">
+            <svg class="absolute h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                    clip-rule="evenodd"></path>
+            </svg>
+        </div>
+        <input type="text" name="" id=""
+            class="dark:highlight-white/5 block w-full rounded-lg px-3 py-2 pl-10 font-sans text-sm text-gray-500 ring-1 ring-gray-900 dark:bg-gray-800 dark:text-gray-400 dark:ring-0"
+            placeholder="search">
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">8.resize</div>
+    <br>
+    <textarea name="" id="" class="resize rounded-lg ring-1 ring-gray-500 p-3" placeholder="resize"></textarea>
+    <textarea name="" id="" class="resize-y rounded-lg ring-1 ring-gray-500 p-3" placeholder="resize-y"></textarea>
+    <textarea name="" id="" class="resize-x rounded-lg ring-1 ring-gray-500 p-3" placeholder="resize-x"></textarea>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">9.scroll-smooth</div>
+    <br>
+    <div class="w-100 text-justify h-32 ring-1 ring-cyan-500 p-3 overflow-auto">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos placeat nostrum veritatis, accusantium quam
+        nesciunt necessitatibus dolorem nemo temporibus in adipisci eos dolorum ab quo. Delectus quae sunt fugit eos non
+        voluptatibus, nihil animi, corporis quis repellendus unde laudantium reiciendis est ab numquam dignissimos esse
+        architecto, obcaecati adipisci minus. Ex.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magni distinctio explicabo, sequi
+        voluptatibus dolor dolore earum veniam rem dolores consequuntur eveniet, pariatur quas maiores obcaecati ullam
+        nostrum doloremque exercitationem?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam debitis adipisci animi, alias dolorem quas
+        soluta omnis inventore recusandae saepe reprehenderit eum. Quod inventore quidem temporibus natus ipsa
+        repudiandae obcaecati?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse et rem sit eum voluptatem voluptas tempore quia
+        impedit illo aspernatur. Sequi natus accusamus illo praesentium doloribus laboriosam consequatur similique
+        deserunt!
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">10.scroll-margin</div>
+    <br>
+    <div class="snap-x flex w-full overflow-x-auto gap-12 p-4 border-1 rounded-lg overflow-auto">
+        <div class="snap-start relative shrink-0 scroll-ml-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start relative shrink-0 scroll-ml-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start relative shrink-0 scroll-ml-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start relative shrink-0 scroll-ml-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start relative shrink-0 scroll-ml-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start relative shrink-0 scroll-ml-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    left-to-right
+    <br>
+    <br>
+    <div dir="ltr">
+        <div class="snap-x flex w-full overflow-x-auto gap-12 p-4 border-1 rounded-lg overflow-auto">
+            <div class="snap-start relative shrink-0 scroll-ml-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-ml-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-ml-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-ml-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-ml-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-ml-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    right-to-left
+    <br>
+    <br>
+    <div dir="rtl">
+        <div class="snap-x flex w-full overflow-x-auto gap-12 p-4 border-1 rounded-lg overflow-auto">
+            <div class="snap-start relative shrink-0 scroll-ml-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-ml-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-ml-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-ml-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-ml-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-ml-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">11.scroll-padding</div>
+    <br>
+    <div class="snap-x flex w-full overflow-x-auto gap-12 p-4 border-1 rounded-lg overflow-auto">
+        <div class="snap-start relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    left-to-right
+    <br>
+    <br>
+    <div dir="ltr">
+        <div class="snap-x flex w-full overflow-x-auto gap-12 p-4 border-1 rounded-lg overflow-auto">
+            <div class="snap-start relative shrink-0 scroll-pl-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-pl-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-pl-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-pl-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-pl-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-pl-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    right-to-left
+    <br>
+    <br>
+    <div dir="rtl">
+        <div class="snap-x flex w-full overflow-x-auto gap-12 p-4 border-1 rounded-lg overflow-auto">
+            <div class="snap-start relative shrink-0 scroll-pl-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-pl-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-pl-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-pl-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-pl-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+            <div class="snap-start relative shrink-0 scroll-pl-6">
+                <img src="/img/nature.avif" alt="" class="rounded-lg ">
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">12.scroll-snap-align</div>
+    <br>
+    center
+    <br>
+    <br>
+    <div class="snap-x flex w-full overflow-x-auto gap-12 p-4 border-1 rounded-lg overflow-auto">
+        <div class="snap-center relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-center relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-center relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-center relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-center relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-center relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    start
+    <br>
+    <br>
+    <div class="snap-x flex w-full overflow-x-auto gap-12 p-4 border-1 rounded-lg overflow-auto">
+        <div class="snap-start relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    end
+    <br>
+    <br>
+    <div class="snap-x flex w-full overflow-x-auto gap-12 p-4 border-1 rounded-lg overflow-auto">
+        <div class="snap-end relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-end relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-end relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-end relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-end relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-end relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">13.scroll-snap-stop</div>
+    <br>
+    center
+    <br>
+    <br>
+    <div class="snap-x snap-mandatory flex w-full overflow-x-auto gap-12 p-4 border-1 rounded-lg overflow-auto">
+        <div class="snap-center snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-center snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-center snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-center snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-center snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-center snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    start
+    <br>
+    <br>
+    <div class="snap-x snap-mandatory flex w-full overflow-x-auto gap-12 p-4 border-1 rounded-lg overflow-auto">
+        <div class="snap-start snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-start snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    end
+    <br>
+    <br>
+    <div class="snap-x snap-mandatory flex w-full overflow-x-auto gap-12 p-4 border-1 rounded-lg overflow-auto">
+        <div class="snap-end snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-end snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-end snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-end snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-end snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-end snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">14.scroll-snap-type</div>
+    <br>
+    snap-x
+    <br>
+    <br>
+    <div class="snap-x snap-mandatory flex w-full overflow-x-auto gap-12 p-4 border-1 rounded-lg overflow-auto">
+        <div class="snap-center snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-center snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-center snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-center snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-center snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+        <div class="snap-center snap-always relative shrink-0 scroll-pl-6">
+            <img src="/img/nature.avif" alt="" class="rounded-lg ">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    snap-y
+    <br>
+    <br>
+    <div class="snap-y snap-mandatory flex flex-col w-200 overflow-y-auto gap-12 p-4 border-1 rounded-lg h-100">
+        <div class="snap-start snap-always relative shrink-0 ">
+            <video src="/img/271763_small.mp4" alt="" class="rounded-lg  w-200 h-100" muted autoplay loop>
+        </div>
+        <div class="snap-start snap-always relative shrink-0 ">
+            <video src="/img/106883-674268697_small.mp4" alt="" class="rounded-lg  w-full h-full" muted autoplay loop>
+        </div>
+        <div class="snap-start snap-always relative shrink-0 ">
+            <video src="/img/17445-281494056_small.mp4" alt="" class="rounded-lg  w-full h-full" muted autoplay loop>
+        </div>
+        <div class="snap-start snap-always relative shrink-0 ">
+            <video src="/img/38811-418027382_small.mp4" alt="" class="rounded-lg  w-full h-full" muted autoplay loop>
+        </div>
+        <div class="snap-start snap-always relative shrink-0 ">
+            <video src="/img/4872-181170832_small.mp4" alt="" class="rounded-lg  w-full h-full" muted autoplay loop>
+        </div>
+        <div class="snap-start snap-always relative shrink-0 ">
+            <video src="/img/131722-751029883_small.mp4" alt="" class="rounded-lg  w-full h-full" muted autoplay loop>
+        </div>
+
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">15.touch-action</div>
+    <br>
+    touch-auto
+    <br>
+    <br>
+    <div class="h-48 w-100 touch-auto overflow-auto">
+        <img src="/img/nature.avif" alt="" class="h-auto w-[150%] max-w-none">
+    </div>
+    <br>
+    touch-none
+    <br>
+    <br>
+    <div class="h-48 w-100 touch-none overflow-auto">
+        <img src="/img/nature.avif" alt="" class="h-auto w-[150%] max-w-none">
+    </div>
+    <br>
+    touch-pan-x
+    <br>
+    <br>
+    <div class="h-48 w-100 touch-pan-x overflow-auto">
+        <img src="/img/nature.avif" alt="" class="h-auto w-[150%] max-w-none">
+    </div>
+    <br>
+    touch-pan-y
+    <br>
+    <br>
+    <div class="h-48 w-100 touch-pan-y overflow-auto">
+        <img src="/img/nature.avif" alt="" class="h-auto w-[150%] max-w-none">
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">16.user-select</div>
+    <br>
+    select none
+    <br>
+    <br>
+    <div class="p-2 rounded-lg bg-gray-500/75 text-white select-none">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque eveniet beatae et mollitia maiores
+        pariatur. Soluta dolorum earum repudiandae quasi non deleniti, possimus eius dignissimos, ipsum eveniet
+        asperiores explicabo!
+    </div>
+    <br>
+    select text
+    <br>
+    <br>
+    <div class="p-2 rounded-lg bg-gray-500/75 text-white select-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque eveniet beatae et mollitia maiores
+        pariatur. Soluta dolorum earum repudiandae quasi non deleniti, possimus eius dignissimos, ipsum eveniet
+        asperiores explicabo!
+    </div>
+    <br>
+    select all
+    <br>
+    <br>
+    <div class="p-2 rounded-lg bg-gray-500/75 text-white select-all">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque eveniet beatae et mollitia maiores
+        pariatur. Soluta dolorum earum repudiandae quasi non deleniti, possimus eius dignissimos, ipsum eveniet
+        asperiores explicabo!
+    </div>
+    <br>
+    select auto
+    <br>
+    <br>
+    <div class="p-2 rounded-lg bg-gray-500/75 text-white select-auto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eaque eveniet beatae et mollitia maiores
+        pariatur. Soluta dolorum earum repudiandae quasi non deleniti, possimus eius dignissimos, ipsum eveniet
+        asperiores explicabo!
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

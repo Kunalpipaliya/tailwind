@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="m-3 text-white bg-[#334456] capitalize">
+    <h1 class="text-3xl font-bold">Typography</h1>
+    <p class="text-2xl bold">1.font-family</p>
+    <div class="font-sans">The quick brown fox jumps over the lazy dog.</div>
+    <div class="font-serif">The quick brown fox jumps over the lazy dog.</div>
+    <div class="font-mono">The quick brown fox jumps over the lazy dog.</div>
+    <div class="font-oswald">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <p class="text-2xl bold">2.font-size</p>
+
+    <p class="text-sm">The quick brown fox jumps over the lazy dog.</p>
+    <p class="text-base ">The quick brown fox jumps over the lazy dog.</p>
+    <p class="text-lg ">The quick brown fox jumps over the lazy dog.</p>
+    <p class="text-xl ">The quick brown fox jumps over the lazy dog.</p>
+    <p class="text-2xl ">The quick brown fox jumps over the lazy dog.</p>
+
+    <br>
+    <p class="text-2xl bold">3.font-smoothing</p>
+
+    <p class="antialiased ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque alias facilis sequi nihil
+        neque atque vero fugit, sint voluptates consequatur esse repellendus reiciendis nesciunt commodi ipsum
+        voluptatibus asperiores doloremque repudiandae?</p>
+    <br>
+    <p class="sub-pixel antialiased ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque alias facilis
+        sequi nihil neque atque vero fugit, sint voluptates consequatur esse repellendus reiciendis nesciunt commodi
+        ipsum voluptatibus asperiores doloremque repudiandae?</p>
+    <br>
+    <p class="text-2xl bold">4.font-style</p>
+    <div class="italic">Lorem ipsum dolor sit.</div>
+    <div class="not-italic">Lorem ipsum dolor sit.</div>
+    <br>
+    <p class="text-2xl bold">5.font-weight</p>
+    <div class="font-thin">Lorem ipsum dolor sit.</div>
+    <div class="font-extralight">Lorem ipsum dolor sit.</div>
+    <div class="font-light">Lorem ipsum dolor sit.</div>
+    <div class="font-normal">Lorem ipsum dolor sit.</div>
+    <div class="font-medium">Lorem ipsum dolor sit.</div>
+    <div class="font-semibold">Lorem ipsum dolor sit.</div>
+    <div class="font-bold">Lorem ipsum dolor sit.</div>
+    <div class="font-extrabold">Lorem ipsum dolor sit.</div>
+    <div class="font-black">Lorem ipsum dolor sit.</div>
+    <br>
+
+    <p class="text-2xl bold">6.font-stretch</p>
+    <p class="font-stretch-extra-condensed">The quick brown fox jumps over the lazy dog.</p>
+    <p class="font-stretch-condensed">The quick brown fox jumps over the lazy dog.</p>
+    <p class="font-stretch-normal">The quick brown fox jumps over the lazy dog.</p>
+    <p class="font-stretch-expanded">The quick brown fox jumps over the lazy dog.</p>
+    <p class="font-stretch-extra-expanded">The quick brown fox jumps over the lazy dog.</p>
+    <br>
+    <p class="text-2xl bold">7.font-variant-numeric</p>
+    <div class="ordinal ">1st</div>
+    <div class="slashed-zero">0</div>
+    <div class="lining-nums">123456</div>
+    <div class="oldstyle-nums">1234567890</div>
+    <div class="proportional-nums">121212</div>
+    <div class="proportional-nums">909090</div>
+    <div class="tabular-nums">121212</div>
+    <div class="tabular-nums">909090</div>
+    <div class="diagonal-fractions">1/2 3/4 5/6</div>
+    <div class="stacked-fractions">1/2 3/4 5/6</div>
+    <br>
+    <dl>
+        <dt>subtotal</dt>
+        <dd class="text-right slashed-zero tabular-nums">$100.00</dd>
+        <hr>
+        <dt>Tax</dt>
+        <dd class="text-right slashed-zero tabular-nums">$14.50</dd>
+        <hr>
+        <dt>Total</dt>
+        <dd class="text-right slashed-zero tabular-nums">$114.50</dd>
+    </dl>
+    <br>
+
+    <p class="text-2xl bold">8.letter-spacing</p>
+    <div class="tracking-tight">Lorem ipsum dolor sit.</div>
+    <div class="tracking-normal">Lorem ipsum dolor sit.</div>
+    <div class="tracking-wide">Lorem ipsum dolor sit.</div>
+    <div class="tracking-wider">Lorem ipsum dolor sit.</div>
+    <div class="tracking-widest">Lorem ipsum dolor sit.</div>
+    <br>
+    <p class="text-2xl bold">9.line-clamp</p>
+    <article class="w-[400px] rounded-xl border-1 p-3 mx-auto">
+        <time class="text-gray-300 font-semibold">June 14, 2025</time>
+        <h2 class="font-bold text-2xl">Boost your conversion rate</h2>
+        <p class="line-clamp-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis harum placeat
+            neque, corporis minus accusamus repellat id in aliquam, quas eos tempora officiis ipsam voluptatem dolores
+            esse? Ex, culpa iure!</p>
+        <div class="flex mt-3">
+            <img src="img/p-2.avif" alt="" class="rounded-full w-[30px] h-[30px]">
+            <p class="font-bold ps-2"> Lindsay Walton</p>
+        </div>
+    </article>
+    <p class="text-2xl bold">10.line-height</p>
+    <br>
+    <div class="text-1xl font-bold">text-base/6</div>
+    <br>
+    <div class="text-base/6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sunt neque voluptas. Eius
+        dolores tempora ipsa modi aliquid magni! Quis debitis illo culpa nam eos ullam dolor magni quisquam optio. Lorem
+        ipsum dolor sit, amet consectetur adipisicing elit. Laudantium natus molestias similique quasi dignissimos
+        maiores voluptate, unde alias? Ratione autem sequi ullam modi velit quas. Assumenda modi corporis sapiente
+        dolores doloremque impedit aperiam harum perferendis velit rem consequuntur numquam, cum et ab neque at. In
+        aperiam atque nisi repellendus eligendi dicta enim dolorum ipsa animi consequatur! Rem atque at ipsum
+        exercitationem! Magnam dolorem similique officiis cupiditate repellat, temporibus culpa doloribus sequi corrupti
+        fuga, reprehenderit earum, incidunt ex. Nam, illum, totam beatae </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">text-base/7</div>
+    <br>
+    <div class="text-base/7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sunt neque voluptas. Eius
+        dolores tempora ipsa modi aliquid magni! Quis debitis illo culpa nam eos ullam dolor magni quisquam optio. Lorem
+        ipsum dolor sit, amet consectetur adipisicing elit. Laudantium natus molestias similique quasi dignissimos
+        maiores voluptate, unde alias? Ratione autem sequi ullam modi velit quas. Assumenda modi corporis sapiente
+        dolores doloremque impedit aperiam harum perferendis velit rem consequuntur numquam, cum et ab neque at. In
+        aperiam atque nisi repellendus eligendi dicta enim dolorum ipsa animi consequatur! Rem atque at ipsum
+        exercitationem! Magnam dolorem similique officiis cupiditate repellat, temporibus culpa doloribus sequi corrupti
+        fuga, reprehenderit earum, incidunt ex. Nam, illum, totam beatae </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">text-base/8</div>
+    <br>
+    <div class="text-base/8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sunt neque voluptas. Eius
+        dolores tempora ipsa modi aliquid magni! Quis debitis illo culpa nam eos ullam dolor magni quisquam optio. Lorem
+        ipsum dolor sit, amet consectetur adipisicing elit. Laudantium natus molestias similique quasi dignissimos
+        maiores voluptate, unde alias? Ratione autem sequi ullam modi velit quas. Assumenda modi corporis sapiente
+        dolores doloremque impedit aperiam harum perferendis velit rem consequuntur numquam, cum et ab neque at. In
+        aperiam atque nisi repellendus eligendi dicta enim dolorum ipsa animi consequatur! Rem atque at ipsum
+        exercitationem! Magnam dolorem similique officiis cupiditate repellat, temporibus culpa doloribus sequi corrupti
+        fuga, reprehenderit earum, incidunt ex. Nam, illum, totam beatae </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">text-sm leading-6</div>
+    <br>
+    <div class="text-sm leading-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facilis architecto
+        fugit sunt vitae recusandae et quas doloribus maxime. Hic asperiores, aliquid nostrum, optio sunt iure esse
+        minus, officiis temporibus sed eligendi? Quia accusamus incidunt libero fuga obcaecati enim, omnis autem, ab
+        nesciunt qui eum perspiciatis cupiditate. Odio culpa esse doloribus, fugiat, dolore nam dicta debitis eveniet
+        similique nihil omnis sint nobis. Aliquid maxime itaque dolores neque numquam veritatis nesciunt culpa aperiam
+        officiis suscipit, odit possimus saepe ut necessitatibus voluptas distinctio praesentium asperiores eligendi
+        quo. Officiis ducimus aut nostrum nisi, tempora incidunt voluptate totam debitis, aliquid a minima itaque
+        veritatis.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">text-sm leading-7</div>
+    <br>
+    <div class="text-sm leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facilis architecto
+        fugit sunt vitae recusandae et quas doloribus maxime. Hic asperiores, aliquid nostrum, optio sunt iure esse
+        minus, officiis temporibus sed eligendi? Quia accusamus incidunt libero fuga obcaecati enim, omnis autem, ab
+        nesciunt qui eum perspiciatis cupiditate. Odio culpa esse doloribus, fugiat, dolore nam dicta debitis eveniet
+        similique nihil omnis sint nobis. Aliquid maxime itaque dolores neque numquam veritatis nesciunt culpa aperiam
+        officiis suscipit, odit possimus saepe ut necessitatibus voluptas distinctio praesentium asperiores eligendi
+        quo. Officiis ducimus aut nostrum nisi, tempora incidunt voluptate totam debitis, aliquid a minima itaque
+        veritatis.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">text-sm leading-8</div>
+    <br>
+    <div class="text-sm leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facilis architecto
+        fugit sunt vitae recusandae et quas doloribus maxime. Hic asperiores, aliquid nostrum, optio sunt iure esse
+        minus, officiis temporibus sed eligendi? Quia accusamus incidunt libero fuga obcaecati enim, omnis autem, ab
+        nesciunt qui eum perspiciatis cupiditate. Odio culpa esse doloribus, fugiat, dolore nam dicta debitis eveniet
+        similique nihil omnis sint nobis. Aliquid maxime itaque dolores neque numquam veritatis nesciunt culpa aperiam
+        officiis suscipit, odit possimus saepe ut necessitatibus voluptas distinctio praesentium asperiores eligendi
+        quo. Officiis ducimus aut nostrum nisi, tempora incidunt voluptate totam debitis, aliquid a minima itaque
+        veritatis.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">removing leading</div>
+    <br>
+    <div class="text-1xl leading-none">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui quibusdam
+        distinctio consequuntur dolore hic recusandae. Incidunt delectus sed ratione repellendus labore sapiente
+        provident hic, nostrum eos necessitatibus non maxime! Maiores, provident assumenda expedita blanditiis
+        architecto debitis officiis ex numquam dolores necessitatibus deserunt vitae aliquam, libero veritatis tempora
+        quisquam non nobis rerum maxime adipisci! A praesentium corrupti natus voluptates porro assumenda. Saepe debitis
+        error, iure libero architecto veritatis? Placeat libero, dolore itaque quo laborum quos voluptatum atque
+        deleniti quas voluptas aperiam molestiae tempore qui sequi vel sed ad ab aspernatur beatae! Ad in laborum
+        suscipit, nemo ex vitae fuga corporis quam?</div>
+
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">leading-[1.5]</div>
+    <br>
+    <div class="leading-[1.5]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui quibusdam distinctio
+        consequuntur dolore hic recusandae. Incidunt delectus sed ratione repellendus labore sapiente provident hic,
+        nostrum eos necessitatibus non maxime! Maiores, provident assumenda expedita blanditiis architecto debitis
+        officiis ex numquam dolores necessitatibus deserunt vitae aliquam, libero veritatis tempora quisquam non nobis
+        rerum maxime adipisci! A praesentium corrupti natus voluptates porro assumenda. Saepe debitis error, iure libero
+        architecto veritatis? Placeat libero, dolore itaque quo laborum quos voluptatum atque deleniti quas voluptas
+        aperiam molestiae tempore qui sequi vel sed ad ab aspernatur beatae! Ad in laborum suscipit, nemo ex vitae fuga
+        corporis quam?</div>
+    <br>
+    <hr>
+    <br>
+    <p class="text-2xl bold">11.list-style-image</p>
+    <br>
+    <ul
+        class="list-image-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNCAxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBmaWxsPSIjMzhiZGY4Ij48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMy42ODUuMTUzYS43NTIuNzUyIDAgMCAxIC4xNDMgMS4wNTJsLTggMTAuNWEuNzUuNzUgMCAwIDEtMS4xMjcuMDc1bC00LjUtNC41YS43NS43NSAwIDAgMSAxLjA2LTEuMDZsMy44OTQgMy44OTMgNy40OC05LjgxN2EuNzUuNzUgMCAwIDEgMS4wNS0uMTQzWiIgLz48L3N2Zz4=')] pl-4 text-gray-900 dark:text-gray-200">
+        <li class="pl-2">5 cups chopped Porcini mushrooms</li>
+        <li class="pl-2">1/2 cup of olive oil</li>
+        <li class="pl-2">3lb of celery</li>
+    </ul>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">12.list-style-position</div>
+    <br>
+    <div class="text-1xl font-bold">list-inside</div>
+    <ul class="list-inside list-disc rounded-xl p-4 pl-8 text-gray-900 dark:text-gray-200 w-[200px]">
+        <li>5 cups chopped Porcini mushrooms</li>
+        <li>1/2 cup of olive oil</li>
+        <li>3lb of celery</li>
+    </ul>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">list-outside</div>
+    <ul class="list-outside list-disc rounded-xl p-4 pl-8 text-gray-900 dark:text-gray-200 w-[200px]">
+        <li>5 cups chopped Porcini mushrooms</li>
+        <li>1/2 cup of olive oil</li>
+        <li>3lb of celery</li>
+    </ul>
+    <hr>
+    <br>
+    <div class="text-2xl bold">13.list-style-type</div>
+    <br>
+    <div class="text-1xl font-bold">list-disc</div>
+    <ul class=" list-disc rounded-xl p-4 pl-8 text-gray-900 dark:text-gray-200">
+        <li>5 cups chopped Porcini mushrooms</li>
+        <li>1/2 cup of olive oil</li>
+        <li>3lb of celery</li>
+    </ul>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">list-decimal</div>
+    <ul class=" list-decimal rounded-xl p-4 pl-8 text-gray-900 dark:text-gray-200">
+        <li>5 cups chopped Porcini mushrooms</li>
+        <li>1/2 cup of olive oil</li>
+        <li>3lb of celery</li>
+    </ul>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">list-none</div>
+    <ul class=" list-none  rounded-xl p-4 pl-8 text-gray-900 dark:text-gray-200">
+        <li>5 cups chopped Porcini mushrooms</li>
+        <li>1/2 cup of olive oil</li>
+        <li>3lb of celery</li>
+    </ul>
+    <hr>
+    <br>
+    <div class="text-2xl bold">14.text-align</div>
+    <br>
+    <div class="text-1xl font-bold">text-left</div>
+    <br>
+    <div class="text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia deleniti quos omnis sit
+        porro nisi? Corporis aliquam quasi, iste veniam maxime tenetur, similique necessitatibus numquam, velit eligendi
+        quae laboriosam alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quod vero magnam doloribus
+        aperiam dignissimos a possimus laboriosam perferendis quidem provident ullam, nobis labore eum ipsam saepe non
+        totam exercitationem quisquam. Quia mollitia maiores voluptatum amet. Facere rerum unde, ut, quis totam
+        reiciendis perferendis culpa dicta quisquam voluptatibus illo ipsam.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">text-right</div>
+    <br>
+    <div class="text-right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia deleniti quos omnis sit
+        porro nisi? Corporis aliquam quasi, iste veniam maxime tenetur, similique necessitatibus numquam, velit eligendi
+        quae laboriosam alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quod vero magnam doloribus
+        aperiam dignissimos a possimus laboriosam perferendis quidem provident ullam, nobis labore eum ipsam saepe non
+        totam exercitationem quisquam. Quia mollitia maiores voluptatum amet. Facere rerum unde, ut, quis totam
+        reiciendis perferendis culpa dicta quisquam voluptatibus illo ipsam.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">text-center</div>
+    <br>
+    <div class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia deleniti quos omnis sit
+        porro nisi? Corporis aliquam quasi, iste veniam maxime tenetur, similique necessitatibus numquam, velit eligendi
+        quae laboriosam alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quod vero magnam doloribus
+        aperiam dignissimos a possimus laboriosam perferendis quidem provident ullam, nobis labore eum ipsam saepe non
+        totam exercitationem quisquam. Quia mollitia maiores voluptatum amet. Facere rerum unde, ut, quis totam
+        reiciendis perferendis culpa dicta quisquam voluptatibus illo ipsam.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">text-justify</div>
+    <br>
+    <div class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia deleniti quos omnis sit
+        porro nisi? Corporis aliquam quasi, iste veniam maxime tenetur, similique necessitatibus numquam, velit eligendi
+        quae laboriosam alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quod vero magnam doloribus
+        aperiam dignissimos a possimus laboriosam perferendis quidem provident ullam, nobis labore eum ipsam saepe non
+        totam exercitationem quisquam. Quia mollitia maiores voluptatum amet. Facere rerum unde, ut, quis totam
+        reiciendis perferendis culpa dicta quisquam voluptatibus illo ipsam.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">text-start</div>
+    <br>
+    <div class="text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia deleniti quos omnis sit
+        porro nisi? Corporis aliquam quasi, iste veniam maxime tenetur, similique necessitatibus numquam, velit eligendi
+        quae laboriosam alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quod vero magnam doloribus
+        aperiam dignissimos a possimus laboriosam perferendis quidem provident ullam, nobis labore eum ipsam saepe non
+        totam exercitationem quisquam. Quia mollitia maiores voluptatum amet. Facere rerum unde, ut, quis totam
+        reiciendis perferendis culpa dicta quisquam voluptatibus illo ipsam.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">text-end</div>
+    <br>
+    <div class="text-end">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia deleniti quos omnis sit
+        porro nisi? Corporis aliquam quasi, iste veniam maxime tenetur, similique necessitatibus numquam, velit eligendi
+        quae laboriosam alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quod vero magnam doloribus
+        aperiam dignissimos a possimus laboriosam perferendis quidem provident ullam, nobis labore eum ipsam saepe non
+        totam exercitationem quisquam. Quia mollitia maiores voluptatum amet. Facere rerum unde, ut, quis totam
+        reiciendis perferendis culpa dicta quisquam voluptatibus illo ipsam.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">15.color</div>
+    <br>
+    <div class="text-blue-600 dark:text-sky-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
+        voluptates fugiat necessitatibus laudantium vel ducimus explicabo, voluptatibus iste dolor, praesentium
+        asperiores sed? Nobis neque nihil asperiores, pariatur aut doloribus! Explicabo?</div>
+    <p class="text-blue-600/100 text-2xl font-bold  dark:text-sky-400/100">The quick brown fox jumps over the lazy dog.
+    </p>
+    <p class="text-blue-600/75  text-2xl font-bold dark:text-sky-400/75">The quick brown fox jumps over the lazy dog.
+    </p>
+    <p class="text-blue-600/50  text-2xl font-bold dark:text-sky-400/50">The quick brown fox jumps over the lazy dog.
+    </p>
+    <p class="text-blue-600/25  text-2xl font-bold dark:text-sky-400/25">The quick brown fox jumps over the lazy dog.
+    </p>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">16.text-decoration-line</div>
+    <br>
+    <div class="text-1xl font-bold">underline</div>
+    <br>
+    <div class="underline">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">overline</div>
+    <br>
+    <div class="overline">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">line-through</div>
+    <br>
+    <div class="line-through">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">no-underline</div>
+    <br>
+    <div class="no-underline">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">Applying on hover</div>
+    <br>
+    <div>The <a href="#" class="no-underline hover:underline text-blue-600/100 dark:text-sky-400">quick brown fox</a>
+        jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">17.text-decoration-color</div>
+    <br>
+    <div class="text-1xl font-bold">decoration-color</div>
+    <br>
+    <div class="underline decoration-white text-blue-600/100 dark:text-sky-400">The quick brown fox
+        jumps over the lazy dog.</div>
+    <br>
+    <div class="text-1xl font-bold">Applying on hover</div>
+    <br>
+    <div>The <a href="#" class="no-underline hover:underline decoration-white text-blue-600/100 dark:text-sky-400">quick
+            brown fox</a>
+        jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">18.text-decoration-style</div>
+    <br>
+    <div class="text-1xl font-bold">underline decoration-solid</div>
+    <br>
+    <div class="underline decoration-solid">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">underline decoration-double</div>
+    <br>
+    <div class="underline decoration-double">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">underline decoration-dotted</div>
+    <br>
+    <div class="underline decoration-dotted">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">underline decoration-dashed</div>
+    <br>
+    <div class="underline decoration-dashed">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">underline decoration-wavy</div>
+    <br>
+    <div class="underline decoration-wavy">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">18.text-decoration-thickness</div>
+    <br>
+    <div class="text-1xl font-bold">underline decoration-1</div>
+    <br>
+    <div class="underline decoration-1">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">underline decoration-2</div>
+    <br>
+    <div class="underline decoration-2">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">underline decoration-3</div>
+    <br>
+    <div class="underline decoration-3">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">underline decoration-4</div>
+    <br>
+    <div class="underline decoration-4">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">underline decoration-5</div>
+    <br>
+    <div class="underline decoration-5">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">19.text-underline-offset</div>
+    <br>
+    <div class="text-1xl font-bold">underline underline-offset-1</div>
+    <br>
+    <div class="underline underline-offset-1">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">underline underline-offset-2</div>
+    <br>
+    <div class="underline underline-offset-2">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">underline underline-offset-3</div>
+    <br>
+    <div class="underline underline-offset-3">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">underline underline-offset-4</div>
+    <br>
+    <div class="underline underline-offset-4">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">underline underline-offset-5</div>
+    <br>
+    <div class="underline underline-offset-5">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">underline underline-offset-6</div>
+    <br>
+    <div class="underline underline-offset-6">The quick brown fox jumps over the lazy dog.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">20.text-transform</div>
+    <br>
+    <div class="text-1xl font-bold">uppercase</div>
+    <br>
+    <p class="uppercase">The quick brown fox jumps over the lazy dog.</p>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">lowercase</div>
+    <br>
+    <p class="lowercase">The quick brown fox jumps over the lazy dog.</p>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">capitalize</div>
+    <br>
+    <p class="capitalize">The quick brown fox jumps over the lazy dog.</p>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">normal-case</div>
+    <br>
+    <p class="normal-case">The quick brown fox jumps over the lazy dog.</p>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">21.text-overflow</div>
+    <br>
+    <div class="text-1xl font-bold">truncate</div>
+    <br>
+    <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus totam id mollitia quam,
+        maxime sapiente nam quae itaque optio enim quo sunt eius tempore amet molestias reprehenderit quisquam labore
+        nulla.</p>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">text-ellipsis</div>
+    <br>
+    <p class="text-ellipsis overflow-hidden">Lorem ipsum dolor sit amet
+        consecteturrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+        adipisicing elit. Doloribus totam id mollitia quam, maxime sapiente nam quae itaque optio enim quo sunt eius
+        tempore amet molestias reprehenderit quisquam labore nulla.</p>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">text-clip</div>
+    <br>
+    <p class="text-clip overflow-hidden">Lorem ipsum dolor sit amet
+        consecteturrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+        adipisicing elit. Doloribus totam id mollitia quam, maxime sapiente nam quae itaque optio enim quo sunt eius
+        tempore amet molestias reprehenderit quisquam labore nulla.</p>
+    <hr>
+    <br>
+    <div class="text-2xl bold">22.text-wrap</div>
+    <br>
+    <div class="text-1xl font-bold">text-wrap</div>
+    <br>
+    <article class="text-wrap w-[354px] border-r-1 border-l-1 border-red-500/30">
+        <h3 class="text-2xl font-bold">Beloved Manhattan soup stand closes</h3>
+        <div class="text-gray-400/80">New Yorkers are facing the winter chill with less warmth this year as the city's
+            most revered soup stand unexpectedly shutters, following a series of events that have left the community
+            puzzled.</div>
+    </article>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">text-nowrap</div>
+    <br>
+    <article class="text-nowrap w-[354px] border-r-1 border-l-1 border-red-500/30">
+        <h3 class="text-2xl font-bold">Beloved Manhattan soup stand closes</h3>
+        <div class="text-gray-400/80">New Yorkers are facing the winter chill with less warmth this year as the city's
+            most revered soup stand unexpectedly shutters, following a series of events that have left the community
+            puzzled.</div>
+    </article>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">text-balance</div>
+    <br>
+    <article class="text-balance w-[354px] border-r-1 border-l-1 border-red-500/30">
+        <h3 class="text-2xl font-bold">Beloved Manhattan soup stand closes</h3>
+        <div class="text-gray-400/80">New Yorkers are facing the winter chill with less warmth this year as the city's
+            most revered soup stand unexpectedly shutters, following a series of events that have left the community
+            puzzled.</div>
+    </article>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">text-pretty</div>
+    <br>
+    <article class="text-pretty w-[354px] border-r-1 border-l-1 border-red-500/30">
+        <h3 class="text-2xl font-bold">Beloved Manhattan soup stand closes</h3>
+        <div class="text-gray-400/80">New Yorkers are facing the winter chill with less warmth this year as the city's
+            most revered soup stand unexpectedly shutters, following a series of events that have left the community
+            puzzled.</div>
+    </article>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">23.text-indent</div>
+    <br>
+    <div class="indent-8 w-[354px] border-1 rounded-lg p-3">So I started to walk into the water. I won't lie to you
+        boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I
+        don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that
+        moment, I was a marine biologist.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="-indent-3 w-[354px] border-1 rounded-lg p-4">So I started to walk into the water. I won't lie to you
+        boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I
+        don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that
+        moment, I was a marine biologist.</div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">24.vertical-align</div>
+    <br>
+    <div class="text-1xl font-bold">aligning to baseline</div>
+    <br>
+    <div class="relative max-w-md leading-none"><span class="inline-block h-8 w-0 align-baseline"><span
+                class="absolute top-0 h-8 w-full border-t border-b border-dashed border-pink-400/50"></span><span
+                class="absolute top-0 h-4 w-full border-b border-dashed border-pink-400/50"></span></span><span
+            class="relative z-10 px-4 font-medium text-gray-700 dark:text-gray-200">The quick brown fox jumps over the
+            lazy dog.</span></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">aligning to top</div>
+    <br>
+    <div class="relative max-w-md leading-none"><span class="inline-block h-8 w-0 align-top"><span
+                class="absolute top-0 h-8 w-full border-t border-b border-dashed border-pink-400/50"></span><span
+                class="absolute top-0 h-4 w-full border-b border-dashed border-pink-400/50"></span></span><span
+            class="relative z-10 px-4 font-medium text-gray-700 dark:text-gray-200">The quick brown fox jumps over the
+            lazy dog.</span></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">aligning to middle</div>
+    <br>
+    <div class="relative max-w-md leading-none"><span class="inline-block h-8 w-0 align-middle"><span
+                class="absolute top-0 h-8 w-full border-t border-b border-dashed border-pink-400/50"></span><span
+                class="absolute top-0 h-4 w-full border-b border-dashed border-pink-400/50"></span></span><span
+            class="relative z-10 px-4 font-medium text-gray-700 dark:text-gray-200">The quick brown fox jumps over the
+            lazy dog.</span></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">aligning to bottom</div>
+    <br>
+    <div class="relative max-w-md leading-none"><span class="inline-block h-8 w-0 align-bottom"><span
+                class="absolute top-0 h-8 w-full border-t border-b border-dashed border-pink-400/50"></span><span
+                class="absolute top-0 h-4 w-full border-b border-dashed border-pink-400/50"></span></span><span
+            class="relative z-10 px-4 font-medium text-gray-700 dark:text-gray-200">The quick brown fox jumps over the
+            lazy dog.</span></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">aligning to parent-top</div>
+    <br>
+    <div class="relative max-w-md leading-none"><span class="inline-block h-8 w-0 align-text-top"><span
+                class="absolute top-0 h-8 w-full border-t border-b border-dashed border-pink-400/50"></span><span
+                class="absolute top-0 h-4 w-full border-b border-dashed border-pink-400/50"></span></span><span
+            class="relative z-10 px-4 font-medium text-gray-700 dark:text-gray-200">The quick brown fox jumps over the
+            lazy dog.</span></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">aligning to parent-bottom</div>
+    <br>
+    <div class="relative max-w-md leading-none"><span class="inline-block h-8 w-0 align-text-bottom"><span
+                class="absolute top-0 h-8 w-full border-t border-b border-dashed border-pink-400/50"></span><span
+                class="absolute top-0 h-4 w-full border-b border-dashed border-pink-400/50"></span></span><span
+            class="relative z-10 px-4 font-medium text-gray-700 dark:text-gray-200">The quick brown fox jumps over the
+            lazy dog.</span></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">25.white-space</div>
+    <br>
+    <div class="text-1xl font-bold">normal</div>
+    <br>
+    <p class="whitespace-normal border-r-1 border-l-1 border-red-400/75 w-[354px]">
+        Hey everyone! It’s almost 2022 and we still don’t know if there are aliens living among us, or do we? Maybe the
+        person writing this is an alien. You will never know.</p>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">nowrap</div>
+    <br>
+    <p class="whitespace-nowrap border-r-1 border-l-1 border-red-400/75 w-[354px]">
+        Hey everyone! It’s almost 2022 and we still don’t know if there are aliens living among us, or do we? Maybe the
+        person writing this is an alien. You will never know.</p>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">pre</div>
+    <br>
+    <p class="whitespace-pre border-r-1 border-l-1 border-red-400/75 w-[354px]">Hey everyone!
+        It’s almost 2022 and we still don’t know if there are aliens living among us, or do we? Maybe the person writing
+        this is an alien. You will never know.</p>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">pre-line</div>
+    <br>
+    <p class="whitespace-pre-line border-r-1 border-l-1 border-red-400/75 w-[354px]"> Hey everyone!
+        It’s almost 2022 and we still don’t know if there are aliens living among us, or do we? Maybe the person writing
+        this is an alien. You will never know.</p>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">pre-wrap</div>
+    <br>
+    <p class="whitespace-pre-wrap border-r-1 border-l-1 border-red-400/75 w-[354px]"> Hey everyone!
+
+        It’s almost 2022 and we still don’t know if there are aliens living among us, or do we? Maybe the person writing
+        this is an alien.
+
+        You will never know.</p>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">break-spaces</div>
+    <br>
+    <p class="whitespace-break-spaces border-r-1 border-l-1 border-red-400/75 w-[354px]"> Hey everyone!
+
+        It’s almost 2022 and we still don’t know if there are aliens living among us, or do we? Maybe the person writing
+        this is an alien.
+
+        You will never know.</p>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">26.word-break</div>
+    <br>
+    <div class="text-1xl font-bold">break-normal</div>
+    <br>
+    <div class="break-normal w-[354px] border-r-1 border-l-1 border-red-500/75 ">
+        The longest word in any of the major English language dictionaries is
+        pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the
+        inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">break-all</div>
+    <br>
+    <div class="break-all w-[354px] border-r-1 border-l-1 border-red-500/75 ">
+        The longest word in any of the major English language dictionaries is
+        pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the
+        inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">break-keep</div>
+    <br>
+    <div class="break-keep w-[354px] border-r-1 border-l-1 border-red-500/75 ">
+        抗衡不屈不挠 (kànghéng bùqū bùnáo) 这是一个长词，意思是不畏强暴，奋勇抗争，坚定不移，永不放弃。这个词通常用来描述那些在面对困难和挑战时坚持自己信念的人，
+        他们克服一切困难，不屈不挠地追求自己的目标。无论遇到多大的挑战，他们都能够坚持到底，不放弃，最终获得胜利。
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">27.overflow-wrap</div>
+    <br>
+    <div class="text-1xl font-bold">wrap-break-word</div>
+    <br>
+    <div class="wrap-break-word border-r-1 border-l-1 border-red-500/75 w-[354px]">
+        The longest word in any of the major English language dictionaries is
+        pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the
+        inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">wrap-anywhere</div>
+    <br>
+    <div class="border-1 border-gray-400/75 rounded-lg p-3 w-[400px] flex align-center bg-[#0e121b]">
+        <img src="img/p-7.avif" alt="" class="rounded-full w-[75px] h-[75px]">
+        <div class="pl-3 wrap-anywhere align-center">
+            <div class="text-2xl font-bold">Jay Riemenschneider</div>
+            <div class="text-1xl text-gray-500/75 ">jason.riemenschneider@vandelayindustries.com
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">wrap-normal</div>
+    <br>
+    <div class="wrap-normal border-r-1 border-l-1 border-red-500/75 w-[354px]">
+        The longest word in any of the major English language dictionaries is
+        pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the
+        inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">28.hyphens</div>
+    <br>
+    <div class="text-1xl font-bold">hyphens-none</div>
+    <br>
+    <div class="hyphens-none w-[354px] border-r-1 border-l-1 border-red-500/75">
+        Officially recognized by the Duden dictionary as the longest word in German,
+        Kraftfahrzeug&shy;­haftpflichtversicherung is a 36 letter word for motor vehicle liability insurance.
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">hyphens-manual</div>
+    <br>
+    <div class="hyphens-manual w-[354px] border-r-1 border-l-1 border-red-500/75">
+        Officially recognized by the Duden dictionary as the longest word in German,
+        Kraftfahrzeug&shy;­haftpflichtversicherung is a 36 letter word for motor vehicle liability insurance.
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl font-bold">hyphens-auto</div>
+    <br>
+    <div class="hyphens-auto w-[354px] border-r-1 border-l-1 border-red-500/75" lang="de">
+        Officially recognized by the Duden dictionary as the longest word in German,
+        Kraftfahrzeug&shy;­haftpflichtversicherung is a 36 letter word for motor vehicle liability insurance.
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-2xl bold">29.content</div>
+    <br>
+    <p class="w-[354px] border-1 rounded-lg p-3">Higher resolution means more than just a better-quality image. With a
+        Retina 6K display, <a href="" class="text-sky-500/100 dark:text-sky-300/100  after:content-['↗']">Pro Display
+            XDR </a>gives you nearly 40 percent more screen real estate than a 5K display.</p>
+    <br>
+    <hr>
+    <br>
+    <p class="w-[354px] border-1 rounded-lg p-3 before:content-['hello_world'] text-center font-bold capitalize"></p>
+    <br>
+    <hr>
+    <br>
+    <p class="w-[354px] border-1 rounded-lg p-3 before:content-['hello\_world'] text-center font-bold capitalize"></p>
+    <br>
+    </body>
+
+</html>

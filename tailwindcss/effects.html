@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-ssky-5001.0 mb-2 bg-sky-500">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#334456] text-white m-3 capitalize">
+    <div class="text-2xl font-bold">effects</div>
+    <br>
+    <div class="text-2xl">1.box-shadow</div>
+    <br>
+    <div class="text-1xl">basic example</div>
+    <br>
+    <div class="size-14 rounded-lg shadow-sky-500/50 mb-2 bg-sky-500 shadow-md"></div>
+    <div class="size-14 rounded-lg shadow-sky-500/50 mb-2 bg-sky-500 shadow-lg"></div>
+    <div class="size-14 rounded-lg shadow-sky-500/50 mb-2 bg-sky-500 shadow-xl"></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">changing opacity</div>
+    <br>
+    <div class="size-14 rounded-lg shadow-sky-500/50 mb-2 bg-sky-500 shadow-xl"></div>
+    <div class="size-14 rounded-lg shadow-sky-500/50 mb-2 bg-sky-500 shadow-xl/20"></div>
+    <div class="size-14 rounded-lg shadow-sky-500/50 mb-2 bg-sky-500 shadow-xl/30"></div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">setting the shadow color</div>
+    <br>
+    <button class="p-2 rounded-lg shadow-red-500/50 mb-2 bg-red-500 shadow-xl">subscribe</button>
+    <button class="p-2 rounded-lg shadow-cyan-500/50 mb-2 bg-cyan-500 shadow-xl">subscribe</button>
+    <button class="p-2 rounded-lg shadow-blue-500/50 mb-2 bg-blue-500 shadow-xl">subscribe</button>
+    <button class="p-2 rounded-lg shadow-indigo-500/50 mb-2 bg-indigo-500 shadow-xl">subscribe</button>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">setting the shadow color</div>
+    <br>
+    <button class="size-14 bg-red-200/30 rounded-lg inset-shadow-sm inset-shadow-red-500 mb-2"></button>
+    <button class="size-14 bg-cyan-200/30 rounded-lg inset-shadow-sm inset-shadow-cyan-500 mb-2 "></button>
+    <button class="size-14 bg-blue-200/30 rounded-lg inset-shadow-sm inset-shadow-blue-500 mb-2 "></button>
+    <button class="size-14 bg-indigo-200/30 rounded-lg inset-shadow-sm inset-shadow-indigo-500 mb-2 "></button>
+    <br>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">2.text-shadow</div>
+    <br>
+    <div class="text-1xl">basic example</div>
+    <p class="text-shadow-2xs text-shadow-sky-500 text-sky-950 ">The quick brown fox jumps over the lazy dog.</p>
+    <p class="text-shadow-xs text-shadow-sky-500 text-sky-950 ">The quick brown fox jumps over the lazy dog.</p>
+    <p class="text-shadow-sm text-shadow-sky-500 text-sky-950 ">The quick brown fox jumps over the lazy dog.</p>
+    <p class="text-shadow-md text-shadow-sky-500 text-sky-950 ">The quick brown fox jumps over the lazy dog.</p>
+    <p class="text-shadow-lg text-shadow-sky-500 text-sky-950 ">The quick brown fox jumps over the lazy dog.</p>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">changing opacity</div>
+    <br>
+    <p class="text-shadow-lg text-shadow-sky-500 text-sky-950 ">The quick brown fox jumps over the lazy dog.</p>
+    <p class="text-shadow-lg text-shadow-sky-500/20 text-sky-950 ">The quick brown fox jumps over the lazy dog.</p>
+    <p class="text-shadow-lg text-shadow-sky-500/30 text-sky-950 ">The quick brown fox jumps over the lazy dog.</p>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">setting the shadow color</div>
+    <br>
+    <button
+        class="text-sky-950 text-shadow-2xs text-shadow-sky-300 font-bold bg-blue-500 p-2 rounded-lg">Button</button>
+    <button
+        class="text-gray-950 dark:text-white dark:text-shadow-2xs text-shadow-2xs text-shadow-sky-300 font-semibold bg-blue-500 p-2 rounded-lg">Button</button>
+    <br>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">3.opacity</div>
+    <br>
+    <div class="text-1xl">basic example</div>
+    <br>
+    <button class="p-2 rounded-lg  mb-2 bg-red-500 opacity-100 ">subscribe</button>
+    <button class="p-2 rounded-lg  mb-2 bg-red-500 opacity-75 ">subscribe</button>
+    <button class="p-2 rounded-lg  mb-2 bg-red-500 opacity-50 ">subscribe</button>
+    <button class="p-2 rounded-lg  mb-2 bg-red-500 opacity-25 ">subscribe</button>
+    <br>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">4.mix-blend-mode</div>
+    <br>
+    <div class="text-1xl">basic example</div>
+    <br>
+    <div class="flex  justify-center -space-x-22">
+        <div class="bg-blue-500 size-14 rounded-full  mix-blend-multiply"></div>
+        <div class="bg-pink-500 size-14 rounded-full  mix-blend-multiply"></div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="text-1xl">isolating blending</div>
+    <br>
+    <div class=" flex justify-center -space-x-22">
+        <div class="bg-yellow-500 size-14 rounded-full  mix-blend-multiply"></div>
+        <div class="bg-green-500 size-14 rounded-full  mix-blend-multiply"></div>
+    </div>
+    <br>
+    <div class="isolate flex justify-center -space-x-22">
+        <div class="bg-yellow-500 size-14 rounded-full  mix-blend-multiply"></div>
+        <div class="bg-green-500 size-14 rounded-full  mix-blend-multiply"></div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">5.background-blend-mode</div>
+    <br>
+    <div class="flex flex-col items-center justify-between gap-y-6 px-1 sm:flex-row md:px-4">
+        <div class="flex shrink-0 flex-col items-center">
+            <p class="mb-3 text-center font-mono text-xs font-medium text-gray-500 dark:text-gray-400">bg-blend-multiply
+            </p>
+            <div
+                class="size-24 bg-blue-500 bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] bg-cover bg-center bg-no-repeat bg-blend-multiply md:size-32">
+            </div>
+        </div>
+        <div class="flex shrink-0 flex-col items-center">
+            <p class="mb-3 text-center font-mono text-xs font-medium text-gray-500 dark:text-gray-400">
+                bg-blend-soft-light</p>
+            <div
+                class="size-24 bg-blue-500 bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] bg-cover bg-center bg-no-repeat bg-blend-soft-light md:size-32">
+            </div>
+        </div>
+        <div class="flex shrink-0 flex-col items-center">
+            <p class="mb-3 text-center font-mono text-xs font-medium text-gray-500 dark:text-gray-400">bg-blend-overlay
+            </p>
+            <div
+                class="size-24 bg-blue-500 bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] bg-cover bg-center bg-no-repeat bg-blend-overlay md:size-32">
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">6.mask-clip</div>
+    <br>
+    <div
+        class="flex flex-col items-center justify-center gap-y-10 text-center font-mono text-xs font-medium text-gray-500 sm:flex-row sm:space-y-0 sm:space-x-10 dark:text-gray-400">
+        <div class="flex flex-col items-center">
+            <p class="mb-3">mask-clip-border</p>
+            <div
+                class="relative size-24 rounded-lg border-3 border-dashed border-indigo-500/50 dark:border-indigo-400/75">
+                <div
+                    class="absolute -inset-[3px] bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-[50%_50%] mask-radial-from-100% bg-cover bg-center mask-clip-border p-1.5">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="mb-3">mask-clip-padding</p>
+            <div
+                class="relative size-24 rounded-lg border-3 border-dashed border-indigo-500/50 dark:border-indigo-400/75">
+                <div
+                    class="absolute -inset-[3px] rounded-lg border-3 bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-[50%_50%] mask-radial-from-100% bg-cover bg-center mask-clip-padding p-1.5">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="mb-3">mask-clip-content</p>
+            <div
+                class="relative size-24 rounded-lg border-3 border-dashed border-indigo-500/50 dark:border-indigo-400/75">
+                <div
+                    class="absolute -inset-[3px] rounded-lg border-3 bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-[50%_50%] mask-radial-from-100% bg-cover bg-center mask-clip-content p-1.5">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">7.mask-composite</div>
+    <br>
+    <div
+        class="grid grid-cols-2 items-center justify-center justify-items-center gap-y-8 py-4 text-center font-mono text-xs font-medium text-gray-500 max-sm:grid-cols-1 dark:text-gray-400">
+        <div class="relative grid justify-center">
+            <div
+                class="absolute -bottom-[2px] right-[calc(5%-2px)] box-content size-24 rounded-full border-2 border-dashed border-black/10 dark:border-white/20">
+            </div>
+            <div
+                class="absolute -bottom-[2px] left-[calc(5%-2px)] box-content size-24 rounded-full border-2 border-dashed border-black/10 dark:border-white/20">
+            </div>
+            <p class="mb-3">mask-add</p>
+            <div
+                class="h-24 w-48 bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-[radial-gradient(ellipse_25%_50%_at_30%_50%,_white_100%,transparent_100%),_radial-gradient(ellipse_25%_50%_at_70%_50%,_white_100%,transparent_100%)] bg-cover bg-center mask-add">
+            </div>
+        </div>
+        <div class="relative grid justify-center">
+            <div
+                class="absolute -bottom-[2px] right-[calc(5%-2px)] box-content size-24 rounded-full border-2 border-dashed border-black/10 dark:border-white/20">
+            </div>
+            <div
+                class="absolute -bottom-[2px] left-[calc(5%-2px)] box-content size-24 rounded-full border-2 border-dashed border-black/10 dark:border-white/20">
+            </div>
+            <p class="mb-3 text-center">mask-subtract</p>
+            <div
+                class="h-24 w-48 bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-[radial-gradient(ellipse_25%_50%_at_30%_50%,_white_100%,transparent_100%),_radial-gradient(ellipse_25%_50%_at_70%_50%,_white_100%,transparent_100%)] bg-cover bg-center mask-subtract">
+            </div>
+        </div>
+        <div class="relative grid justify-center">
+            <div
+                class="absolute -bottom-[2px] right-[calc(5%-2px)] box-content size-24 rounded-full border-2 border-dashed border-black/10 dark:border-white/20">
+            </div>
+            <div
+                class="absolute -bottom-[2px] left-[calc(5%-2px)] box-content size-24 rounded-full border-2 border-dashed border-black/10 dark:border-white/20">
+            </div>
+            <p class="mb-3 text-center">mask-intersect</p>
+            <div
+                class="h-24 w-48 bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-[radial-gradient(ellipse_25%_50%_at_30%_50%,_white_100%,transparent_100%),_radial-gradient(ellipse_25%_50%_at_70%_50%,_white_100%,transparent_100%)] bg-cover bg-center mask-intersect">
+            </div>
+        </div>
+        <div class="relative grid justify-center">
+            <div
+                class="absolute -bottom-[2px] right-[calc(5%-2px)] box-content size-24 rounded-full border-2 border-dashed border-black/10 dark:border-white/20">
+            </div>
+            <div
+                class="absolute -bottom-[2px] left-[calc(5%-2px)] box-content size-24 rounded-full border-2 border-dashed border-black/10 dark:border-white/20">
+            </div>
+            <p class="mb-3 text-center">mask-exclude</p>
+            <div
+                class="h-24 w-48 bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-[radial-gradient(ellipse_25%_50%_at_30%_50%,_white_100%,transparent_100%),_radial-gradient(ellipse_25%_50%_at_70%_50%,_white_100%,transparent_100%)] bg-cover bg-center mask-exclude">
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">8.mask-img</div>
+    <br>
+    <div
+        class="relative mx-auto flex h-48 w-full max-w-96 items-center justify-center overflow-hidden rounded-lg sm:w-96 border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+        <div class="h-full w-full bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] bg-cover bg-center bg-no-repeat mask-size-[110%_90%] mask-center mask-no-repeat"
+            style="mask-image: url(&quot;/_next/static/media/mask.4b6d7838.png&quot;);"></div>
+
+
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div
+        class="grid grid-cols-1 items-end gap-x-2 gap-y-8 p-8 text-center font-mono text-xs font-medium text-gray-500 max-sm:justify-between max-sm:px-2 sm:grid-cols-2 dark:text-gray-400">
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-t-from-50%</p>
+            <div class="grid aspect-3/2 w-48 grid-cols-1">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-t-from-50% bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-r-from-30%</p>
+            <div class="grid aspect-3/2 w-48 grid-cols-1">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-r-from-30% bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-l-from-50% mask-l-to-90%</p>
+            <div class="grid aspect-3/2 w-48 grid-cols-1">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-l-from-50% mask-l-to-90% bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-b-from-20% mask-b-to-80%</p>
+            <div class="grid aspect-3/2 w-48 grid-cols-1">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-b-from-20% mask-b-to-80% bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="mask-x-from-70% mask-x-to-90% bg-[url(img/villas.avif)] w-64 h-32  bg-cover"></div>
+    <br>
+    <div class="mask-y-from-70% mask-y-to-90% bg-[url(img/villas.avif)] w-64 h-32  bg-cover"></div>
+    <br>
+    <hr>
+    <br>
+    <div class="mask-linear-50 mask-linear-from-60% mask-linear-to-80% bg-[url(img/villas.avif)] w-64 h-32 bg-cover">
+    </div>
+    <br>
+    <div class="-mask-linear-50 mask-linear-from-60% mask-linear-to-80% bg-[url(img/villas.avif)] w-64 h-32 bg-cover">
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="flex items-center gap-4 w-[800px]">
+        <img src="img/keyboard.png" alt=""
+            class="mask-radial-[100%_100%] mask-radial-from-75% mask-radial-at-left w-[600px]">
+        <div class="font-medium align-center">
+            <p class="font-mono text-xs text-blue-500 uppercase dark:text-blue-400">speed</p>
+            <div class="mt-2 text-base text-gray-700 dark:text-gray-300">Built for power users</div>
+            <div class="mt-1 text-sm leading-relaxed text-balance text-gray-500">Work faster than ever with our keyboard
+                shortcuts</div>
+
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div
+        class="grid grid-cols-1 items-end gap-x-2 gap-y-8 p-8 text-center font-mono text-xs font-medium text-gray-500 max-sm:justify-between max-sm:px-2 sm:grid-cols-3 dark:text-gray-400">
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-radial-at-top-left</p>
+            <div class="grid size-28 grid-cols-1 max-sm:size-24">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-[33%_33%] mask-radial-from-100% mask-radial-at-top-left bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-radial-at-top</p>
+            <div class="grid size-28 grid-cols-1 max-sm:size-24">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-[33%_33%] mask-radial-from-100% mask-radial-at-top bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-radial-at-top-right</p>
+            <div class="grid size-28 grid-cols-1 max-sm:size-24">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-[33%_33%] mask-radial-from-100% mask-radial-at-top-right bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-radial-at-left</p>
+            <div class="grid size-28 grid-cols-1 max-sm:size-24">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-[33%_33%] mask-radial-from-100% mask-radial-at-left bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-radial-at-center</p>
+            <div class="grid size-28 grid-cols-1 max-sm:size-24">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-[33%_33%] mask-radial-from-100% mask-radial-at-center bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-radial-at-right</p>
+            <div class="grid size-28 grid-cols-1 max-sm:size-24">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-[33%_33%] mask-radial-from-100% mask-radial-at-right bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-radial-at-bottom-left</p>
+            <div class="grid size-28 grid-cols-1 max-sm:size-24">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-[33%_33%] mask-radial-from-100% mask-radial-at-bottom-left bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-radial-at-bottom</p>
+            <div class="grid size-28 grid-cols-1 max-sm:size-24">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-[33%_33%] mask-radial-from-100% mask-radial-at-bottom bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-radial-at-bottom-right</p>
+            <div class="grid size-28 grid-cols-1 max-sm:size-24">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-[33%_33%] mask-radial-from-100% mask-radial-at-bottom-right bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div
+        class="grid grid-cols-1 items-end gap-x-2 gap-y-8 p-8 text-center font-mono text-xs font-medium text-gray-500 max-sm:justify-between max-sm:px-2 sm:grid-cols-2 dark:text-gray-400">
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-radial-closest-side</p>
+            <div class="grid aspect-3/2 w-48 grid-cols-1">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-100% mask-radial-closest-side mask-radial-at-[30%_30%] bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-radial-closest-corner</p>
+            <div class="grid aspect-3/2 w-48 grid-cols-1">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-100% mask-radial-closest-corner mask-radial-at-[30%_30%] bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-radial-farthest-side</p>
+            <div class="grid aspect-3/2 w-48 grid-cols-1">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-100% mask-radial-farthest-side mask-radial-at-[30%_30%] bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center gap-3">
+            <p>mask-radial-farthest-corner</p>
+            <div class="grid aspect-3/2 w-48 grid-cols-1">
+                <div
+                    class="col-start-1 row-start-1 rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                </div>
+                <div
+                    class="col-start-1 row-start-1 rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-100% mask-radial-farthest-corner mask-radial-at-[30%_30%] bg-cover bg-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div
+        class="flex items-center gap-5 rounded-xl bg-white p-4 shadow-lg ring-1 ring-black/5 dark:bg-gray-800 w-[300px]">
+        <div class="grid grid-cols-1 grid-rows-1">
+            <!-- <div class="border-4 border-gray-100 dark:border-gray-700 rounded-full p-4"></div> -->
+            <div
+                class="border-4 border-amber-500 mask-conic-from-75% mask-conic-to-75% dark:border-amber-500 rounded-full p-4">
+            </div>
+        </div>
+        <div class="text-sm text-gray-950 dark:text-white">
+            <div class="font-medium">Storage used:75%</div>
+            <div class="mt-1 text-gray-500 dark:text-gray-400"><span class="font-medium">0.48 GB out of 2 GB
+                    remaining</span></div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div
+        class="mask-b-from-50% mask-radial-[50%_90%] mask-radial-from-80% bg-[url(img/villas.avif)] w-64 h-32 bg-cover">
+    </div>
+    <br>
+    <div
+        class=" mask-r-from-80% mask-b-from-80% mask-radial-from-70% mask-radial-to-85% bg-[url(img/villas.avif)] w-64 h-32 bg-cover">
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">9.mask-mode</div>
+    <br>
+    <div
+        class="mask-alpha mask-r-from-black mask-r-from-50% mask-r-to-transparent bg-[url(img/villas.avif)] w-64 h-32 bg-cover ">
+
+    </div>
+    <br>
+    <div
+        class="mask-luminance mask-r-from-white mask-r-from-50% mask-r-to-black bg-[url(img/villas.avif)] w-64 h-32 bg-cover ">
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">10.mask-origin</div>
+    <br>
+    <div
+        class="flex flex-col gap-y-10 text-center font-mono text-xs font-medium text-gray-500 sm:flex-row sm:justify-between dark:text-gray-400">
+        <div class="flex shrink-0 flex-col items-center">
+            <p class="mb-3">mask-origin-border</p>
+            <div
+                class="relative size-24 rounded-lg border-3 border-dashed border-indigo-500/50 dark:border-indigo-400/75">
+                <div
+                    class="absolute -inset-[3px] bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-[50%_50%] mask-radial-from-100% bg-cover bg-center mask-no-repeat mask-origin-border p-1.5">
+                </div>
+            </div>
+        </div>
+        <div class="flex shrink-0 flex-col items-center">
+            <p class="mb-3">mask-origin-padding</p>
+            <div
+                class="relative size-24 rounded-lg border-3 border-dashed border-indigo-500/50 dark:border-indigo-400/75">
+                <div
+                    class="absolute -inset-[3px] rounded-lg border-3 bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-[50%_50%] mask-radial-from-100% bg-cover bg-center mask-no-repeat mask-origin-padding p-1.5">
+                </div>
+            </div>
+        </div>
+        <div class="flex shrink-0 flex-col items-center">
+            <p class="mb-3">mask-origin-content</p>
+            <div
+                class="relative size-24 rounded-lg border-3 border-dashed border-indigo-500/50 dark:border-indigo-400/75">
+                <div
+                    class="absolute -inset-[3px] rounded-lg border-3 bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-[50%_50%] mask-radial-from-100% bg-cover bg-center mask-no-repeat mask-origin-content p-1.5">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">11.mask-position</div>
+    <br>
+    <div
+        class="grid grid-cols-3 gap-y-8 p-8 text-center font-mono text-xs font-medium text-gray-500 max-sm:items-end max-sm:justify-between max-sm:px-2 dark:text-gray-400">
+        <div class="flex flex-col items-center">
+            <p class="mb-3">mask-top-left</p>
+            <div
+                class="aspect-[1.333] w-32 rounded-lg max-sm:w-24 border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                <div
+                    class="h-full rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-70% mask-radial-to-70% bg-cover bg-center mask-size-[50%_66%] mask-top-left mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="mb-3">mask-top</p>
+            <div
+                class="aspect-[1.333] w-32 rounded-lg max-sm:w-24 border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                <div
+                    class="h-full rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-70% mask-radial-to-70% bg-cover bg-center mask-size-[50%_66%] mask-top mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="mb-3">mask-top-right</p>
+            <div
+                class="aspect-[1.333] w-32 rounded-lg max-sm:w-24 border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                <div
+                    class="h-full rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-70% mask-radial-to-70% bg-cover bg-center mask-size-[50%_66%] mask-top-right mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="mb-3">mask-left</p>
+            <div
+                class="aspect-[1.333] w-32 rounded-lg max-sm:w-24 border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                <div
+                    class="h-full rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-70% mask-radial-to-70% bg-cover bg-center mask-size-[50%_66%] mask-left mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="mb-3">mask-center</p>
+            <div
+                class="aspect-[1.333] w-32 rounded-lg max-sm:w-24 border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                <div
+                    class="h-full rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-70% mask-radial-to-70% bg-cover bg-center mask-size-[50%_66%] mask-center mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="mb-3">mask-right</p>
+            <div
+                class="aspect-[1.333] w-32 rounded-lg max-sm:w-24 border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                <div
+                    class="h-full rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-70% mask-radial-to-70% bg-cover bg-center mask-size-[50%_66%] mask-right mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="mb-3">mask-bottom-left</p>
+            <div
+                class="aspect-[1.333] w-32 rounded-lg max-sm:w-24 border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                <div
+                    class="h-full rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-70% mask-radial-to-70% bg-cover bg-center mask-size-[50%_66%] mask-bottom-left mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="mb-3">mask-bottom</p>
+            <div
+                class="aspect-[1.333] w-32 rounded-lg max-sm:w-24 border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                <div
+                    class="h-full rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-70% mask-radial-to-70% bg-cover bg-center mask-size-[50%_66%] mask-bottom mask-no-repeat">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <p class="mb-3">mask-bottom-right</p>
+            <div
+                class="aspect-[1.333] w-32 rounded-lg max-sm:w-24 border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+                <div
+                    class="h-full rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-70% mask-radial-to-70% bg-cover bg-center mask-size-[50%_66%] mask-bottom-right mask-no-repeat">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+    <div class="text-2xl">12.mask-repeat</div>
+    <br>
+    <div
+        class="h-40 w-full rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+        <div
+            class="h-full rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-100% mask-radial-closest-side bg-cover bg-center mask-size-[50px_50px] mask-center mask-repeat">
+        </div>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+    <div
+        class="h-40 w-full rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+        <div
+            class="h-full rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-100% mask-radial-closest-side bg-cover bg-center mask-size-[50px_50px] mask-center mask-repeat-x">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div
+        class="h-40 w-full rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+        <div
+            class="h-full rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-100% mask-radial-closest-side bg-cover bg-center mask-size-[50px_50px] mask-center mask-repeat-y">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div
+        class="h-40 w-full rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+        <div
+            class="h-full rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-100% mask-radial-closest-side bg-cover bg-center mask-size-[50px_50px] mask-repeat-space">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div
+        class="h-40 w-full rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+        <div
+            class="h-full rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-100% mask-radial-closest-side bg-cover bg-center mask-size-[50px_50px] mask-repeat-round">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div
+        class="h-40 w-full rounded-lg border text-black/10 dark:text-white/12.5 bg-[size:8px_8px] bg-top-left bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]">
+        <div
+            class="h-full rounded-lg bg-[url(https://images.unsplash.com/photo-1554629947-334ff61d85dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1000&amp;q=80)] mask-radial-from-100% mask-radial-closest-side bg-cover bg-center mask-size-[50px_50px] mask-center mask-no-repeat">
+        </div>
+    </div>
+    <br>
+    <hr class="mb-1">
+    <hr class="w-[50%]">
+    <br>
+   
+
+
+
+</body>
+
+</html>
